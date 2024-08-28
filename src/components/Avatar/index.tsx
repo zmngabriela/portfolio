@@ -1,7 +1,7 @@
-import { ProfilePhoto } from './styles';
+import * as S from './styles';
 
 const Avatar = () => {
-  return <ProfilePhoto src="https://github.com/zmngabriela.png" alt="" />;
+  return <S.Photo src="https://github.com/zmngabriela.png" alt="Avatar" />;
 };
 
 export default Avatar;

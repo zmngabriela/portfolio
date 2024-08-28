@@ -1,23 +1,36 @@
 import Title from '../Title';
 import Paragraph from '../Paragraph';
-import styled from 'styled-components';
-import { LinkBotao } from './styles';
+import * as S from './styles';
 
-// STYLED COMPONENTS
-// podemos usar o componente stilizado no arquivo do componente
-// nao e muito legal, mas se for usar, deve ficar antes do cod do componente, como ta aqui
-const Card = styled.div`
-  border: 1px solid #c1c1c1;
-  padding: 16px;
-`;
+export type Props = {
+  title: string;
+  description: string;
+  linkGithub: string;
+  linkVercel: string;
+  image: string;
+};
 
-const Project = () => {
+const Project = ({
+  title,
+  description,
+  linkGithub,
+  linkVercel,
+  image
+}: Props) => {
   return (
-    <Card>
-      <Title fontSize={16}>Projeto Lista de tarefas</Title>
-      <Paragraph type="secondary">Lista de tarefas feita com VueJS</Paragraph>
-      <LinkBotao>Visualizar</LinkBotao>
-    </Card>
+    <S.Card>
+      <Title fontSize={16}>{title}</Title>
+      <a href={linkVercel} target="_blank" rel="noreferrer">
+        <img src={image} alt="Vercel" />
+      </a>
+      <Paragraph type="secondary">{description}</Paragraph>
+      <S.LinkBtn href={linkGithub} target="_blank" rel="noreferrer">
+        Github
+      </S.LinkBtn>
+      <S.LinkBtn href={linkVercel} target="_blank" rel="noreferrer">
+        Vercel
+      </S.LinkBtn>
+    </S.Card>
   );
 };
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ProjectsStyle = styled.ul`
+export const Projects = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 36px;

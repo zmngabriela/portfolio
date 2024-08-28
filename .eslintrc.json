@@ -23,7 +23,6 @@
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "indent": ["error", 2], // Indentação com 2 espaços
     "prettier/prettier": [
       "error",
       {

@@ -1,25 +1,25 @@
-// CRIANDO CONTAINER SIDEBAR
-
 import Title from '../../components/Title';
 import Avatar from '../../components/Avatar';
 import Paragraph from '../../components/Paragraph';
-import { BotaoTema, Descricao, SidebarContainer } from './styles';
+import * as S from './styles';
 
-const Sidebar = () => {
+type Props = {
+  changeTheme: () => void;
+};
+
+const Sidebar = (props: Props) => {
   return (
-    <aside>
-      <SidebarContainer>
-        <Avatar />
-        <Title fontSize={20}>Gabriela Zimmermann</Title>
-        <Paragraph type="secondary" fontSize={16}>
-          zmngabriela
-        </Paragraph>
-        <Descricao type="principal" fontSize={12}>
-          Engenheira front-end
-        </Descricao>
-        <BotaoTema>Trocar tema</BotaoTema>
-      </SidebarContainer>
-    </aside>
+    <S.Container>
+      <Avatar />
+      <Title fontSize={20}>Gabriela Zimmermann</Title>
+      <Paragraph type="secondary" fontSize={16}>
+        zmngabriela
+      </Paragraph>
+      <S.Description type="principal" fontSize={12}>
+        Front-end developer
+      </S.Description>
+      <S.Btn onClick={props.changeTheme}>Change theme</S.Btn>
+    </S.Container>
   );
 };
 
