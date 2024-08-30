@@ -14,6 +14,20 @@ const Projects = () => {
       image: 'https://i.postimg.cc/XvvFrdKS/contacts-list.jpg'
     },
     {
+      title: 'Portfolio',
+      description: 'Project developed using React and Styled Components.',
+      linkGithub: 'https://github.com/zmngabriela/portfolio',
+      linkVercel: 'https://portfoliogzimmermann.vercel.app/',
+      image: 'https://i.postimg.cc/v8tG3rJF/portfolio.jpg'
+    },
+    {
+      title: 'Landing page',
+      description: 'Project developed using HTML, CSS and Gulp.',
+      linkGithub: 'https://github.com/zmngabriela/landing-page',
+      linkVercel: 'https://houserenovations.vercel.app/',
+      image: 'https://i.postimg.cc/Hx2Q7W2Y/landing-page.jpg'
+    },
+    {
       title: 'Arithmetic Calculator',
       description:
         'Project developed using VueJS. Isolated component for exercise purpose.',
