@@ -36,6 +36,14 @@ const Projects = () => {
       image: 'https://i.postimg.cc/3wKHGMZV/arithmetic-calculator.jpg'
     },
     {
+      title: 'Tasks',
+      description:
+        'Project developed using Create React App, Redux and Styled Components.',
+      linkGithub: 'https://github.com/zmngabriela/tasks',
+      linkVercel: 'https://tasks-lyart.vercel.app/',
+      image: 'https://i.postimg.cc/d0VMzYXv/tasks-list.jpg'
+    },
+    {
       title: 'BMI Calculator',
       description:
         'Project developed using React. Isolated component for exercise purpose.',
