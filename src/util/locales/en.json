@@ -8,43 +8,42 @@
     "list": {
       "contactList": {
         "title": "Contact List",
-        "description": "Project developed using Create React App, Redux, and Styled Components."
+        "description": "A contact management web application built with React, Redux for state management, and Styled Components for custom UI design. This project showcases advanced form handling and real-time updates, enhancing user experience in managing personal and professional contacts."
       },
       "portfolio": {
         "title": "Portfolio",
-        "description": "Project developed using React and Styled Components. Implemented themes and internationalization with i18n."
+        "description": "A personal portfolio website created with React and Styled Components, featuring dynamic theming and internationalization (i18n). This project demonstrates my ability to build responsive, multi-language applications with a focus on UI/UX design."
       },
       "renovationLandingPage": {
         "title": "Landing Page",
-        "description": "Project developed using HTML, CSS, and Gulp."
+        "description": "A professional landing page designed for a home renovation business, developed using HTML, CSS, and Gulp for task automation. The project emphasizes clean, modern design and mobile responsiveness, enhancing the company’s online presence."
       },
       "toDoList": {
         "title": "To Do List",
-        "description": "Project developed using VueJS and Bootstrap."
+        "description": "A task management application built with Vue.js and Bootstrap. This project features dynamic task creation, editing, and deletion with a clean and responsive interface, demonstrating my skills in Vue.js and front-end development."
       },
       "arithmeticCalculator": {
         "title": "Arithmetic Calculator",
-        "description": "Project developed using VueJS. Isolated component for exercise purposes."
+        "description": "An interactive arithmetic calculator built as a Vue.js component. This project serves as an exercise in component-based development, focusing on input validation and real-time calculation functionalities."
       },
       "tasks": {
         "title": "Tasks",
-        "description": "Project developed using Create React App, Redux, and Styled Components."
+        "description": "A task tracking application developed with React, Redux for efficient state management, and Styled Components for a custom UI. The app allows users to add, edit, and delete tasks, featuring local storage persistence for user convenience."
       },
       "yogaLandingPage": {
         "title": "Landing Page Studio",
-        "description": "Project developed using Bootstrap and jQuery validation."
+        "description": "A yoga studio landing page built with Bootstrap for responsive design and jQuery for form validation. This project highlights my ability to create visually appealing and functional landing pages aimed at user engagement."
       },
       "bmiCalculator": {
         "title": "BMI Calculator",
-        "description": "Project developed using React. Isolated component for exercise purposes."
+        "description": "A Body Mass Index (BMI) calculator developed as an isolated React component. This project focuses on providing a smooth user interface and real-time BMI calculations, serving as a practical exercise in React component design."
       }
     }
   },
   "sidebar": {
     "name": "Gabriela Zimmermann",
-    "role": "Front-end developer",
+    "role": "Front-end Dev",
     "changeTheme": "Change theme",
-    "username": "zmngabriela",
-    "themeBtn": "Change theme"
+    "username": "zmngabriela"
   }
 }

@@ -3,7 +3,8 @@ import Paragraph from '../Paragraph';
 
 import * as S from './styles';
 
-export type Props = {
+export type ProjectType = {
+  id?: number;
   title: string;
   description: string;
   linkGithub: string;
@@ -17,7 +18,7 @@ const Project = ({
   linkGithub,
   linkVercel,
   image
-}: Props) => {
+}: ProjectType) => {
   return (
     <S.Card>
       <Title fontSize={16}>{title}</Title>

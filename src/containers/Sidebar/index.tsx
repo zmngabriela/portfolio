@@ -29,7 +29,7 @@ const Sidebar = (props: Props) => {
       </S.Description>
       <S.containerBtn>
         <S.BtnTheme onClick={props.changeTheme}>
-          {t('sidebar.themeBtn')}
+          {t('sidebar.changeTheme')}
         </S.BtnTheme>
         <div>
           <S.BtnLang onClick={() => changeLanguage('en')}>EN</S.BtnLang>
