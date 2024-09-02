@@ -1,48 +1,48 @@
 {
   "about": {
     "title": "Sobre mí",
-    "description": "Desarrolladora Full Stack Java en formación en EBAC – Escuela Británica de Artes Creativas y Tecnología. Profesional con experiencia en coordinación de equipos, atención al cliente en empresas tecnológicas, ingeniería de producción y verificación de riesgos en Stripe. Con habilidades técnicas sólidas, enfoque metódico para alcanzar resultados y una pasión por el aprendizaje continuo, estoy motivada para enfrentar nuevos desafíos y aportar a proyectos innovadores."
+    "description": "Desarrollo Full Stack en Java en formación en EBAC – Escola Britânica de Artes Criativas e Tecnologia. Profesional entusiasta con una experiencia diversa en coordinación de equipos, servicio al cliente para empresas tecnológicas, ingeniería de producción y verificación de riesgos para Stripe. Con habilidades técnicas sólidas, un enfoque metódico para lograr resultados y pasión por el aprendizaje continuo, estoy emocionada de asumir nuevos desafíos y contribuir de manera significativa a proyectos innovadores."
   },
   "projects": {
     "title": "Proyectos",
     "list": {
       "contactList": {
         "title": "Lista de Contactos",
-        "description": "Proyecto desarrollado utilizando Create React App, Redux y Styled Components."
+        "description": "Una aplicación web de gestión de contactos construida con React, Redux para la gestión del estado y Styled Components para el diseño personalizado de la interfaz de usuario. Este proyecto muestra un manejo avanzado de formularios y actualizaciones en tiempo real, mejorando la experiencia del usuario en la gestión de contactos personales y profesionales."
       },
       "portfolio": {
         "title": "Portafolio",
-        "description": "Proyecto desarrollado utilizando React y Styled Components. Implementación de temas e internacionalización con i18n."
+        "description": "Un sitio web de portafolio personal creado con React y Styled Components, que cuenta con temas dinámicos e internacionalización (i18n). Este proyecto demuestra mi capacidad para construir aplicaciones responsivas y multilingües con un enfoque en el diseño UI/UX."
       },
       "renovationLandingPage": {
-        "title": "Página",
-        "description": "Proyecto desarrollado utilizando HTML, CSS y Gulp."
+        "title": "Página de Aterrizaje",
+        "description": "Una página de aterrizaje profesional diseñada para un negocio de renovación de viviendas, desarrollada utilizando HTML, CSS y Gulp para la automatización de tareas. El proyecto enfatiza un diseño limpio y moderno y la capacidad de respuesta móvil, mejorando la presencia en línea de la empresa."
       },
       "toDoList": {
         "title": "Lista de Tareas",
-        "description": "Proyecto desarrollado utilizando VueJS y Bootstrap."
+        "description": "Una aplicación de gestión de tareas construida con Vue.js y Bootstrap. Este proyecto presenta la creación, edición y eliminación dinámica de tareas con una interfaz limpia y responsiva, demostrando mis habilidades en Vue.js y desarrollo front-end."
       },
       "arithmeticCalculator": {
         "title": "Calculadora Aritmética",
-        "description": "Proyecto desarrollado utilizando VueJS. Componente aislado para fines de ejercicio."
+        "description": "Una calculadora aritmética interactiva construida como un componente de Vue.js. Este proyecto sirve como un ejercicio en el desarrollo basado en componentes, enfocándose en la validación de entradas y funcionalidades de cálculo en tiempo real."
       },
       "tasks": {
         "title": "Tareas",
-        "description": "Proyecto desarrollado utilizando Create React App, Redux y Styled Components."
+        "description": "Una aplicación de seguimiento de tareas desarrollada con React, Redux para una gestión eficiente del estado, y Styled Components para una interfaz personalizada. La aplicación permite a los usuarios agregar, editar y eliminar tareas, con persistencia en almacenamiento local para la conveniencia del usuario."
       },
       "yogaLandingPage": {
-        "title": "Página Studio",
-        "description": "Proyecto desarrollado utilizando Bootstrap y validación con jQuery."
+        "title": "Página de Aterrizaje para Estudio de Yoga",
+        "description": "Una página de aterrizaje para un estudio de yoga construida con Bootstrap para el diseño responsivo y jQuery para la validación de formularios. Este proyecto resalta mi capacidad para crear páginas de aterrizaje visualmente atractivas y funcionales orientadas a la participación del usuario."
       },
       "bmiCalculator": {
         "title": "Calculadora de IMC",
-        "description": "Proyecto desarrollado utilizando React. Componente aislado para fines de ejercicio."
+        "description": "Una calculadora de Índice de Masa Corporal (IMC) desarrollada como un componente aislado de React. Este proyecto se enfoca en proporcionar una interfaz de usuario fluida y cálculos de IMC en tiempo real, sirviendo como un ejercicio práctico en el diseño de componentes de React."
       }
     }
   },
   "sidebar": {
     "name": "Gabriela Zimmermann",
-    "role": "Front-end Dev",
+    "role": "Desarrolladora Front-end",
     "changeTheme": "Cambiar tema",
     "username": "zmngabriela"
   }

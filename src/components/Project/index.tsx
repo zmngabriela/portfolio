@@ -26,12 +26,14 @@ const Project = ({
         <img src={image} alt="Vercel" />
       </a>
       <Paragraph type="secondary">{description}</Paragraph>
-      <S.LinkBtn href={linkGithub} target="_blank" rel="noreferrer">
-        Github
-      </S.LinkBtn>
-      <S.LinkBtn href={linkVercel} target="_blank" rel="noreferrer">
-        Vercel
-      </S.LinkBtn>
+      <div className="btn">
+        <S.LinkBtn href={linkGithub} target="_blank" rel="noreferrer">
+          Github
+        </S.LinkBtn>
+        <S.LinkBtn href={linkVercel} target="_blank" rel="noreferrer">
+          Vercel
+        </S.LinkBtn>
+      </div>
     </S.Card>
   );
 };

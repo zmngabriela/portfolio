@@ -14,14 +14,14 @@ const About = () => {
       <Paragraph type="principal">{t('about.description')}</Paragraph>
       <S.GithubSection>
         <img
-          src="https://github-readme-stats.vercel.app/api?username=zmngabriela&show_icons=true&theme=default&include_all_commits=true&count_private=true"
+          src="https://github-readme-stats.vercel.app/api?username=zmngabriela&show_icons=false&theme=default&include_all_commits=false&count_private=true&hide=contribs"
           alt="GitHub Stats"
-          className="github-images"
+          id="github-stats"
         />
         <img
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=zmngabriela&theme=default&layout=compact&langs_count=6"
           alt="GitHub Most Used Languages"
-          className="github-images"
+          id="github-lang"
         />
       </S.GithubSection>
     </section>
