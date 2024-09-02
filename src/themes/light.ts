@@ -1,9 +1,9 @@
 const lightTheme = {
-  principal: '#282a35',
+  principal: '#39393B',
   secondary: '#949494',
   background: '#fff',
   btn: '#4476bf',
-  border: '#C1C1C1'
+  border: '#eee'
 };
 
 export default lightTheme;

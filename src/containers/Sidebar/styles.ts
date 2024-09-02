@@ -5,13 +5,34 @@ export const Description = styled(P)`
   margin-bottom: 40px;
 `;
 
-export const Btn = styled.button`
+export const containerBtn = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  div {
+    display: flex;
+    justify-content: center;
+  }
+`;
+
+export const BtnTheme = styled.button`
+  padding: 8px;
+  margin-bottom: 10px;
   font-size: 10px;
   font-weight: bold;
-  padding: 8px;
   border-radius: 12px;
   color: ${(props) => props.theme.background};
   background-color: ${(props) => props.theme.principal};
+  cursor: pointer;
+`;
+
+export const BtnLang = styled.button`
+  padding: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  color: ${(props) => props.theme.principal};
+  background-color: transparent;
+  border: none;
   cursor: pointer;
 `;
 

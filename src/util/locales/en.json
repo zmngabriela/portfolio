@@ -1,0 +1,50 @@
+{
+  "about": {
+    "title": "About",
+    "description": "Java Full Stack Development in formation on EBAC – Escola Britânica de Artes Criativas e Tecnologia. Enthusiastic professional with a diverse background in team coordination, customer service for tech companies, production engineering and risk verification for Stripe. With strong technical skills, a methodical approach to achieving results, and passion for continuous learning, I am excited to take on new challenges and contribute meaningfully to innovative projects."
+  },
+  "projects": {
+    "title": "Projects",
+    "list": {
+      "contactList": {
+        "title": "Contact List",
+        "description": "Project developed using Create React App, Redux, and Styled Components."
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "Project developed using React and Styled Components. Implemented themes and internationalization with i18n."
+      },
+      "renovationLandingPage": {
+        "title": "Landing Page",
+        "description": "Project developed using HTML, CSS, and Gulp."
+      },
+      "toDoList": {
+        "title": "To Do List",
+        "description": "Project developed using VueJS and Bootstrap."
+      },
+      "arithmeticCalculator": {
+        "title": "Arithmetic Calculator",
+        "description": "Project developed using VueJS. Isolated component for exercise purposes."
+      },
+      "tasks": {
+        "title": "Tasks",
+        "description": "Project developed using Create React App, Redux, and Styled Components."
+      },
+      "yogaLandingPage": {
+        "title": "Landing Page Studio",
+        "description": "Project developed using Bootstrap and jQuery validation."
+      },
+      "bmiCalculator": {
+        "title": "BMI Calculator",
+        "description": "Project developed using React. Isolated component for exercise purposes."
+      }
+    }
+  },
+  "sidebar": {
+    "name": "Gabriela Zimmermann",
+    "role": "Front-end developer",
+    "changeTheme": "Change theme",
+    "username": "zmngabriela",
+    "themeBtn": "Change theme"
+  }
+}

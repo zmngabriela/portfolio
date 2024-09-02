@@ -1,9 +1,9 @@
 const darkTheme = {
   principal: '#fff',
   secondary: '#eee',
-  background: '#282a35',
+  background: '#39393B',
   btn: '#fff',
-  border: '#C1C1C1'
+  border: '#6B6B68'
 };
 
 export default darkTheme;

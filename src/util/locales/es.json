@@ -1,0 +1,49 @@
+{
+  "about": {
+    "title": "Sobre mí",
+    "description": "Desarrolladora Full Stack Java en formación en EBAC – Escuela Británica de Artes Creativas y Tecnología. Profesional con experiencia en coordinación de equipos, atención al cliente en empresas tecnológicas, ingeniería de producción y verificación de riesgos en Stripe. Con habilidades técnicas sólidas, enfoque metódico para alcanzar resultados y una pasión por el aprendizaje continuo, estoy motivada para enfrentar nuevos desafíos y aportar a proyectos innovadores."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "list": {
+      "contactList": {
+        "title": "Lista de Contactos",
+        "description": "Proyecto desarrollado utilizando Create React App, Redux y Styled Components."
+      },
+      "portfolio": {
+        "title": "Portafolio",
+        "description": "Proyecto desarrollado utilizando React y Styled Components. Implementación de temas e internacionalización con i18n."
+      },
+      "renovationLandingPage": {
+        "title": "Página",
+        "description": "Proyecto desarrollado utilizando HTML, CSS y Gulp."
+      },
+      "toDoList": {
+        "title": "Lista de Tareas",
+        "description": "Proyecto desarrollado utilizando VueJS y Bootstrap."
+      },
+      "arithmeticCalculator": {
+        "title": "Calculadora Aritmética",
+        "description": "Proyecto desarrollado utilizando VueJS. Componente aislado para fines de ejercicio."
+      },
+      "tasks": {
+        "title": "Tareas",
+        "description": "Proyecto desarrollado utilizando Create React App, Redux y Styled Components."
+      },
+      "yogaLandingPage": {
+        "title": "Página Studio",
+        "description": "Proyecto desarrollado utilizando Bootstrap y validación con jQuery."
+      },
+      "bmiCalculator": {
+        "title": "Calculadora de IMC",
+        "description": "Proyecto desarrollado utilizando React. Componente aislado para fines de ejercicio."
+      }
+    }
+  },
+  "sidebar": {
+    "name": "Gabriela Zimmermann",
+    "role": "Desarrolladora Front-end",
+    "changeTheme": "Cambiar tema",
+    "username": "zmngabriela"
+  }
+}
