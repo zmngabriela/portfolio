@@ -12,22 +12,17 @@ const About = () => {
 
   return (
     <S.Section id="about">
-      <TextComponent
-        position="right"
-        fullWidth
-        count="01"
-        content={<p>{t('about.description')}</p>}
-      />
       <S.Main>
+        <TextComponent count="01" content={<p>{t('about.description')}</p>} />
         <h3>
           {t('about.title')} <br />
           <span>Gabriela</span>?
         </h3>
+        <S.Container>
+          <TextComponent count="02" content={<p>{t('about.more')}</p>} />
+          <TextComponent count="03" content={<p>{t('about.extra')}</p>} />
+        </S.Container>
       </S.Main>
-      <S.Container>
-        <TextComponent count="02" content={<p>{t('about.more')}</p>} />
-        <TextComponent count="03" content={<p>{t('about.extra')}</p>} />
-      </S.Container>
       <S.Images>
         <img src={me3} alt="" />
         <img src={me2} alt="" />

@@ -1,17 +1,9 @@
 import styled from 'styled-components';
 import { breakpoints } from '../../styles/styles';
 
-type TextProps = {
-  position: string;
-  fullWidth: boolean;
-};
-
-export const Text = styled.div<TextProps>`
-  width: ${(props) => (props.fullWidth ? '100%' : 'auto')};
+export const Text = styled.div`
   display: flex;
-  justify-content: ${(props) => (props.position === 'right' ? 'end' : 'auto')};
   gap: 8px;
-  padding: ${(props) => (props.position === 'right' ? '0 20% 0 0' : '0')};
 
   p {
     font-family: 'costaline';

@@ -11,19 +11,15 @@ const Projects = () => {
   const { t } = useTranslation();
 
   return (
-    <>
-      <S.Section id="projects">
+    <S.Section id="projects">
+      <S.Container>
         <h3>
           <span>(</span> {t('projects.title')} <span>)</span>
         </h3>
-        <TextComponent
-          position="right"
-          count="01."
-          content={<p>{t('projects.subtitle')}</p>}
-        />
-      </S.Section>
+        <TextComponent count="01." content={<p>{t('projects.subtitle')}</p>} />
+      </S.Container>
       <ProjectsList />
-      <S.Container>
+      <S.Skills>
         <div>
           <TextComponent
             count="02."
@@ -61,8 +57,8 @@ const Projects = () => {
           />
         </div>
         <img src={me1} alt="" />
-      </S.Container>
-    </>
+      </S.Skills>
+    </S.Section>
   );
 };
 

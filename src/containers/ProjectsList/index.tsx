@@ -39,7 +39,7 @@ const ProjectsList = () => {
         title: t('projects.list.portfolio.title'),
         description: t('projects.list.portfolio.description'),
         linkGithub: 'https://github.com/zmngabriela/portfolio',
-        linkVercel: 'https://portfoliogzimmermann.vercel.app/',
+        linkVercel: 'https://zmngabriela.vercel.app/',
         image:
           'https://i.postimg.cc/sDT9QSTg/Screenshot-2024-12-23-at-21-35-50.png'
       },

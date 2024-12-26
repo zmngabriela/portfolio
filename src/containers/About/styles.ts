@@ -11,15 +11,16 @@ export const Section = styled.section`
   p {
     max-width: 350px;
   }
+
+  h3 {
+    margin: 40px 0;
+  }
 `;
 
-export const Main = styled.div`
-  margin: -40px 40px 40px;
+export const Main = styled.section`
   display: flex;
-
-  @media (max-width: ${breakpoints.tablet}) {
-    margin: 40px;
-  }
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const Container = styled.div`

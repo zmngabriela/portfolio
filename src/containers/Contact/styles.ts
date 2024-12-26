@@ -25,7 +25,7 @@ export const Section = styled.section`
   @media (max-width: ${breakpoints.mobile}) {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 40px;
 
     img {
@@ -43,7 +43,7 @@ export const Container = styled.div`
   p,
   a {
     font-family: 'neue ralewe';
-    font-size: 14px;
+    font-size: 12px;
     color: ${(props) => props.theme.colors.principal};
 
     span {
