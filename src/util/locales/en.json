@@ -1,0 +1,63 @@
+{
+  "navbar": {
+    "role": "Fontend Developer Junior",
+    "projects": "projects",
+    "about": "about me",
+    "contact": "Let's chat"
+  },
+  "projects": {
+    "title": "Projects",
+    "github": "See code in Github",
+    "subtitle": "Personal projects and studies",
+    "list": {
+      "e-commerce": {
+        "title": "E-commerce",
+        "description": "A e-commerce built with React, Redux for state management, and Styled Components. This project features a dynamic carousel, real-time filtering based on categories, price, and search term, as well as responsive design. It also integrates with an API to fetch product categories and pagination."
+      },
+      "contactList": {
+        "title": "Contact List",
+        "description": "A contact management web application built with React, Redux for state management, and Styled Components for custom UI design. This project showcases advanced form handling and real-time updates, enhancing user experience."
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "A personal portfolio website created with React and Styled Components, featuring dynamic theming and internationalization (i18n). This project demonstrates ability to build responsive, multi-language applications with a focus on UI/UX design."
+      },
+      "renovationLandingPage": {
+        "title": "Landing Page",
+        "description": "A professional landing page, developed using HTML, CSS, and Gulp for task automation. The project emphasizes clean, modern design and mobile responsiveness."
+      },
+      "toDoList": {
+        "title": "To Do List",
+        "description": "A task management application developed using Vue.js and Bootstrap, designed for academic purposes. This project features dynamic task creation, editing, and deletion, along with a clean, responsive, and user-friendly interface. It demonstrates modern practices and component-based architecture."
+      },
+      "tasks": {
+        "title": "Tasks",
+        "description": "A task tracking application developed with React, Redux for efficient state management, and Styled Components for a custom UI. The app allows users to add, edit, and delete tasks, featuring local storage persistence for user convenience."
+      },
+      "yogaLandingPage": {
+        "title": "Landing Page Studio",
+        "description": "A yoga studio landing page built with Bootstrap for responsive design and jQuery for form validation. This project highlights ability to create visually appealing and functional landing pages."
+      }
+    },
+    "skills": {
+      "title": "I´ve been studying HTML5, CSS3, JavaScript, TypeScript",
+      "versionControl": "Version Control Systems:",
+      "crossBrowser": "Cross-Browser Compatibility",
+      "techniques": "Ajax and Error Handling Techniques",
+      "responsiveness": "Responsiveness",
+      "oop": "Object-Oriented Programming (OOP)"
+    }
+  },
+  "about": {
+    "title": "Who is",
+    "description": "Social, curious, proactive. Loves nature, music, photography, traveling. Cinephile, neuroscience enthusiast. Independent and strong.",
+    "more": "Java Full Stack development student. Experience/studies in Graphic and Fashion Design, allows me to create more intuitive and attractive interfaces. Changed carreer after finding purpose and values. Estimulated by changes. Living in Barcelona, Spain. From Santa Catarina, south Brazil",
+    "extra": "Being a fast learner and enjoying working in projects from different backgrounds, I am currently open to all kinds of different challenges."
+  },
+  "contact": {
+    "title": "Let's connect",
+    "contact": "Contact me through",
+    "phone": "Phone",
+    "subtitle": "Check what I´ve been working on"
+  }
+}
