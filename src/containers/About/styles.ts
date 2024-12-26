@@ -21,6 +21,12 @@ export const Main = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  ${Text}:nth-of-type(1) {
+    width: 100%;
+    justify-content: end;
+    padding-right: 40px;
+  }
 `;
 
 export const Container = styled.div`
@@ -28,15 +34,13 @@ export const Container = styled.div`
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 40px;
-  padding: 0 40px 40px;
+  padding-bottom: 40px;
 
   @media (max-width: ${breakpoints.tablet}) {
     display: flex;
     flex-direction: column;
-    padding: 0 0 40px;
 
     ${Text} {
-      width: 100%;
       justify-content: start;
 
       &:nth-of-type(2) {
