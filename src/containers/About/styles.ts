@@ -6,27 +6,12 @@ import { breakpoints } from '../../styles/styles';
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-
-  p {
-    max-width: 350px;
-  }
-
-  h3 {
-    margin: 40px 0;
-  }
 `;
 
 export const Main = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  ${Text}:nth-of-type(1) {
-    width: 100%;
-    justify-content: end;
-    padding-right: 40px;
-  }
 `;
 
 export const Container = styled.div`
@@ -34,33 +19,33 @@ export const Container = styled.div`
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 40px;
-  padding-bottom: 40px;
+  margin: 40px 0;
+
+  p {
+    max-width: 30vw;
+  }
+
+  > div {
+    ${Text}:nth-of-type(1) {
+      margin-bottom: 8px;
+    }
+  }
 
   @media (max-width: ${breakpoints.tablet}) {
     display: flex;
     flex-direction: column;
 
-    ${Text} {
-      justify-content: start;
-
-      &:nth-of-type(2) {
-        justify-content: end;
-
-        p {
-          text-align: right;
-          max-width: 300px;
-        }
-      }
+    p {
+      max-width: 80%;
     }
-  }
 
-  @media (max-width: ${breakpoints.mobile}) {
-    ${Text}:nth-of-type(2) {
-      justify-content: start;
+    ${Text} {
+      justify-content: center;
+    }
 
-      p {
-        text-align: start;
-        max-width: none;
+    > div {
+      ${Text}:nth-of-type(1) {
+        margin-bottom: 40px;
       }
     }
   }

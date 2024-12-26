@@ -13,14 +13,19 @@ const About = () => {
   return (
     <S.Section id="about">
       <S.Main>
-        <TextComponent count="01" content={<p>{t('about.description')}</p>} />
         <h3>
           {t('about.title')} <br />
           <span>Gabriela</span>?
         </h3>
         <S.Container>
-          <TextComponent count="02" content={<p>{t('about.more')}</p>} />
-          <TextComponent count="03" content={<p>{t('about.extra')}</p>} />
+          <TextComponent count="01" content={<p>{t('about.more')}</p>} />
+          <div>
+            <TextComponent
+              count="02"
+              content={<p>{t('about.description')}</p>}
+            />
+            <TextComponent count="03" content={<p>{t('about.extra')}</p>} />
+          </div>
         </S.Container>
       </S.Main>
       <S.Images>

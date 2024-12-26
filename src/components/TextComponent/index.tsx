@@ -11,7 +11,7 @@ const TextComponent = ({ count, content }: Props) => {
       <p>
         <span>{count}</span>
       </p>
-      <p>{content}</p>
+      {content}
     </S.Text>
   );
 };
