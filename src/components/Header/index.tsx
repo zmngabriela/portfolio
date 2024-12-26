@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import * as S from './styles';
@@ -10,10 +10,26 @@ type Props = {
 const Header = ({ toggleTheme }: Props) => {
   const { t, i18n } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const openMenu = useRef<HTMLUListElement | null>(null);
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        openMenu.current &&
+        !openMenu.current.contains(event.target as Node)
+      ) {
+        setMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [openMenu]);
 
   return (
     <S.Header>
@@ -30,7 +46,7 @@ const Header = ({ toggleTheme }: Props) => {
             ))}
         </h2>
       </S.Container>
-      <S.Links className={menuOpen ? 'open' : ''}>
+      <S.Links className={menuOpen ? 'open' : ''} ref={openMenu}>
         <li>
           <a href="#projects">{t('navbar.projects')}</a>
         </li>
