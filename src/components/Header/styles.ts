@@ -15,7 +15,7 @@ export const Header = styled.header`
     background: none;
     cursor: pointer;
 
-    font-family: 'neue ralewe';
+    font-family: 'brosta';
     font-size: 16px;
     text-transform: uppercase;
 
@@ -36,17 +36,17 @@ export const Container = styled.div`
   gap: 8px;
 
   h1 {
-    font-family: 'neue ralewe';
+    font-family: 'brosta';
     text-transform: uppercase;
     font-size: 16px;
   }
 
   h2 {
-    font-family: 'neue ralewe';
+    font-family: 'brosta';
     font-size: 16px;
 
     span {
-      font-family: 'guffie';
+      font-family: 'costaline';
     }
   }
 
@@ -64,7 +64,7 @@ export const Links = styled.ul`
   justify-content: space-between;
 
   li {
-    font-family: 'neue ralewe';
+    font-family: 'brosta';
     text-transform: uppercase;
 
     a {

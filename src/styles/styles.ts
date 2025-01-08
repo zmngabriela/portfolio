@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
-import neueRalewe from './fonts/ZTNeueRalewe-Regular.ttf';
-import guffie from './fonts/Guffie-Italic.otf';
+import brosta from './fonts/Brosta.ttf';
+import costaline from './fonts/CostalineThinitalic.otf';
 
 export const breakpoints = {
   desktop: '1024px',
@@ -23,14 +23,14 @@ export const EstiloGlobal = createGlobalStyle`
     color: ${(props) => props.theme.colors.principal};
 
     h3 {
-      font-family: 'neue ralewe';
+      font-family: 'brosta';
       text-transform: uppercase;
       line-height: 64px;
       font-size: 64px;
       transition: font-size 1s ease;
 
       span {
-        font-family: 'guffie';
+        font-family: 'costaline';
       }
 
       @media (max-width: ${breakpoints.tablet}) {
@@ -46,13 +46,13 @@ export const EstiloGlobal = createGlobalStyle`
   }
 
   @font-face {
-    font-family: 'neue ralewe';
-    src: url(${neueRalewe}) format('truetype');
+    font-family: 'brosta';
+    src: url(${brosta}) format('truetype');
   }
 
   @font-face {
-    font-family: 'guffie';
-    src: url(${guffie}) format('opentype');
+    font-family: 'costaline';
+    src: url(${costaline}) format('opentype');
   }
 `;
 

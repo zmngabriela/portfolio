@@ -41,14 +41,14 @@ export const Info = styled.div`
   padding: 8px 0 8px 16px;
 
   h2 {
-    font-family: 'guffie';
+    font-family: 'costaline';
     font-size: 16px;
   }
 `;
 
 export const LinkGithub = styled.a`
   color: ${(props) => props.theme.colors.btn};
-  font-family: 'neue ralewe';
+  font-family: 'brosta';
   text-transform: uppercase;
   font-size: 12px;
 `;
@@ -83,6 +83,6 @@ export const LinkVercel = styled.a`
 export const Description = styled.p`
   width: 100%;
   white-space: wrap;
-  font-family: 'guffie';
+  font-family: 'costaline';
   font-size: 15px;
 `;

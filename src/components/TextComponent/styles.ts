@@ -6,12 +6,12 @@ export const Text = styled.div`
   gap: 8px;
 
   p {
-    font-family: 'guffie';
+    font-family: 'costaline';
     font-style: italic;
     font-size: 15px;
 
     span {
-      font-family: 'neue ralewe';
+      font-family: 'brosta';
       font-size: 16px;
     }
 

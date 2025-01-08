@@ -42,12 +42,12 @@ export const Container = styled.div`
 
   p,
   a {
-    font-family: 'neue ralewe';
+    font-family: 'brosta';
     font-size: 14px;
     color: ${(props) => props.theme.colors.principal};
 
     span {
-      font-family: 'guffie';
+      font-family: 'costaline';
       font-size: 16px;
     }
   }
