@@ -41,6 +41,8 @@ const Projects = () => {
             count="03."
             content={
               <p>
+                <span>{t('projects.skills.testingTools')}</span> Jest, Testing
+                Library, Cypress <br />
                 <span>Single Page Applications (SPA):</span> React, Vue.js{' '}
                 <br />
                 Chrome DevTools <br />

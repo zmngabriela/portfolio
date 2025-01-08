@@ -41,6 +41,7 @@
     },
     "skills": {
       "title": "I´ve been studying HTML5, CSS3, JavaScript, TypeScript",
+      "testingTools": "Testing tools:",
       "versionControl": "Version Control Systems:",
       "crossBrowser": "Cross-Browser Compatibility",
       "techniques": "Ajax and Error Handling Techniques",

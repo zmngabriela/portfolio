@@ -47,10 +47,26 @@ const Contact = () => {
           </p>
           <ul>
             <li>
-              <p>Github</p>
+              <p>
+                <a
+                  href="https://github.com/zmngabriela"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </p>
             </li>
             <li>
-              <p>Vercel</p>
+              <p>
+                <a
+                  href="https://vercel.com/zmngabrielas-projects"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Vercel
+                </a>
+              </p>
             </li>
           </ul>
         </div>
