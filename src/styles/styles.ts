@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 import neueRalewe from './fonts/ZTNeueRalewe-Regular.ttf';
-import costaline from './fonts/CostalineThinitalic.otf';
+import guffie from './fonts/Guffie-Italic.otf';
 
 export const breakpoints = {
   desktop: '1024px',
@@ -30,7 +30,7 @@ export const EstiloGlobal = createGlobalStyle`
       transition: font-size 1s ease;
 
       span {
-        font-family: 'costaline';
+        font-family: 'guffie';
       }
 
       @media (max-width: ${breakpoints.tablet}) {
@@ -51,8 +51,8 @@ export const EstiloGlobal = createGlobalStyle`
   }
 
   @font-face {
-    font-family: 'costaline';
-    src: url(${costaline}) format('opentype');
+    font-family: 'guffie';
+    src: url(${guffie}) format('opentype');
   }
 `;
 

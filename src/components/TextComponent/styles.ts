@@ -6,9 +6,9 @@ export const Text = styled.div`
   gap: 8px;
 
   p {
-    font-family: 'costaline';
+    font-family: 'guffie';
     font-style: italic;
-    font-size: 12px;
+    font-size: 15px;
 
     span {
       font-family: 'neue ralewe';

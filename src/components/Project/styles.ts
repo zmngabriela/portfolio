@@ -41,7 +41,7 @@ export const Info = styled.div`
   padding: 8px 0 8px 16px;
 
   h2 {
-    font-family: 'costaline';
+    font-family: 'guffie';
     font-size: 16px;
   }
 `;
@@ -83,6 +83,6 @@ export const LinkVercel = styled.a`
 export const Description = styled.p`
   width: 100%;
   white-space: wrap;
-  font-family: 'costaline';
-  font-size: 10px;
+  font-family: 'guffie';
+  font-size: 15px;
 `;

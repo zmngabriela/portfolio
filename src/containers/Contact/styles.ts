@@ -43,12 +43,12 @@ export const Container = styled.div`
   p,
   a {
     font-family: 'neue ralewe';
-    font-size: 12px;
+    font-size: 14px;
     color: ${(props) => props.theme.colors.principal};
 
     span {
-      font-family: 'costaline';
-      font-size: 12px;
+      font-family: 'guffie';
+      font-size: 16px;
     }
   }
 `;
