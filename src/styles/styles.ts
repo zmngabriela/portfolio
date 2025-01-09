@@ -25,8 +25,7 @@ export const EstiloGlobal = createGlobalStyle`
     h3 {
       font-family: 'brosta';
       text-transform: uppercase;
-      line-height: 64px;
-      font-size: 64px;
+      font-size: 32px;
       transition: font-size 1s ease;
 
       span {
@@ -35,12 +34,10 @@ export const EstiloGlobal = createGlobalStyle`
 
       @media (max-width: ${breakpoints.tablet}) {
         font-size: 44px;
-        line-height: 52px;
       }
 
       @media (max-width: ${breakpoints.mobile}) {
         font-size: 32px;
-        line-height: 40px;
       }
     }
   }

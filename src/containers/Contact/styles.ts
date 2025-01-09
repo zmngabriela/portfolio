@@ -48,7 +48,7 @@ export const Container = styled.div`
 
     span {
       font-family: 'costaline';
-      font-size: 16px;
+      font-size: 13px;
     }
   }
 `;

@@ -50,7 +50,7 @@ export const LinkGithub = styled.a`
   color: ${(props) => props.theme.colors.btn};
   font-family: 'brosta';
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 13px;
 `;
 
 export const LinkVercel = styled.a`
@@ -84,5 +84,5 @@ export const Description = styled.p`
   width: 100%;
   white-space: wrap;
   font-family: 'costaline';
-  font-size: 15px;
+  font-size: 13px;
 `;
