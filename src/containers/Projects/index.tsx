@@ -26,14 +26,13 @@ const Projects = () => {
             content={
               <p>
                 {t('projects.skills.title')} <br />
-                <span>Preprocessors:</span> SASS, LESS CSS <br />
+                <span>JavaScript Frameworks:</span> React, Vue.js <br />
+                <span>State Management Tool:</span> Redux <br />
+                <span>Preprocessors:</span> SASS, LESS <br />
                 <span>Frameworks:</span> Bootstrap <br />
                 <span>JavaScript Libraries:</span> jQuery <br />
-                <span>JavaScript Frameworks:</span> React, Vue.js <br />
-                <span>Task Runners / Module Bundlers:</span> Gulp, Webpack{' '}
-                <br />
-                <span>{t('projects.skills.versionControl')}</span> Git, GitHub{' '}
-                <br />
+                <span>Task Runners / Module Bundlers:</span> Gulp, Webpack,
+                Grunt <br />
               </p>
             }
           />
@@ -42,15 +41,15 @@ const Projects = () => {
             content={
               <p>
                 <span>{t('projects.skills.testingTools')}</span> Jest, Testing
-                Library, Cypress <br />
-                <span>Single Page Applications (SPA):</span> React, Vue.js{' '}
+                Library, Cypress, Mock Service Worker <br />
+                <span>{t('projects.skills.versionControl')}</span> Git, GitHub{' '}
                 <br />
-                Chrome DevTools <br />
+                Chrome and Redux DevTools <br />
                 <span>{t('projects.skills.crossBrowser')}:</span> Babel Compiler{' '}
                 <br />
                 {t('projects.skills.techniques')} <br />
-                <span>Tools and Software:</span> Visual Studio Code, Figma, Jira{' '}
-                <br />
+                <span>Tools and Software:</span> Visual Studio Code, Figma,
+                Jira, Adobe Photoshop and Illustrator <br />
                 UI/UX Design <br />
                 {t('projects.skills.responsiveness')} <br />
                 {t('projects.skills.oop')}

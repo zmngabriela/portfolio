@@ -32,16 +32,7 @@ const ProjectsList = () => {
         linkGithub: 'https://github.com/zmngabriela/contact-list',
         linkVercel: 'https://contact-list-orcin.vercel.app/',
         image:
-          'https://i.postimg.cc/2jFxYgvv/Screenshot-2024-12-23-at-21-33-51.png'
-      },
-      {
-        id: 3,
-        title: t('projects.list.portfolio.title'),
-        description: t('projects.list.portfolio.description'),
-        linkGithub: 'https://github.com/zmngabriela/portfolio',
-        linkVercel: 'https://zmngabriela.vercel.app/',
-        image:
-          'https://i.postimg.cc/sDT9QSTg/Screenshot-2024-12-23-at-21-35-50.png'
+          'https://i.postimg.cc/66msXngD/Screenshot-2025-01-09-at-18-53-48.png'
       },
       {
         id: 4,
@@ -78,6 +69,15 @@ const ProjectsList = () => {
         linkVercel: 'https://landing-page-yoga.vercel.app',
         image:
           'https://i.postimg.cc/g25V4pF9/Screenshot-2024-12-23-at-21-35-10.png'
+      },
+      {
+        id: 3,
+        title: t('projects.list.portfolio.title'),
+        description: t('projects.list.portfolio.description'),
+        linkGithub: 'https://github.com/zmngabriela/portfolio',
+        linkVercel: 'https://zmngabriela.vercel.app/',
+        image:
+          'https://i.postimg.cc/sDT9QSTg/Screenshot-2024-12-23-at-21-35-50.png'
       }
     ]);
   }, [i18n.language, t]);

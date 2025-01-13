@@ -37,7 +37,9 @@ const Contact = () => {
               </p>
             </li>
             <li>
-              <p></p>
+              <p>
+                <a href="https://www.linkedin.com/in/zmngabriela/">Linkedin</a>
+              </p>
             </li>
           </ul>
         </div>
