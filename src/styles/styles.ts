@@ -32,12 +32,8 @@ export const EstiloGlobal = createGlobalStyle`
         font-family: 'costaline';
       }
 
-      @media (max-width: ${breakpoints.tablet}) {
-        font-size: 44px;
-      }
-
       @media (max-width: ${breakpoints.mobile}) {
-        font-size: 32px;
+        font-size: 28px;
       }
     }
   }

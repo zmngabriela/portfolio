@@ -8,11 +8,11 @@ export const Text = styled.div`
   p {
     font-family: 'costaline';
     font-style: italic;
-    font-size: 13px;
+    font-size: 15px;
 
     span {
       font-family: 'brosta';
-      font-size: 16px;
+      font-size: 18px;
     }
 
     &:nth-of-type(2) {

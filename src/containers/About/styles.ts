@@ -6,6 +6,7 @@ import { breakpoints } from '../../styles/styles';
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
+  padding-top: 80px;
 `;
 
 export const Main = styled.section`

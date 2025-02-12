@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-import me7 from '../../assets/7.jpg';
+import image from '../../assets/images/footer.jpg';
 
 import * as S from './styles';
 
@@ -76,7 +76,7 @@ const Contact = () => {
           <span>&copy; {year}</span>
         </p>
       </S.Container>
-      <img src={me7} alt="" />
+      <img src={image} alt="" />
     </S.Section>
   );
 };

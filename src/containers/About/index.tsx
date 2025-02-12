@@ -2,8 +2,8 @@ import { useTranslation } from 'react-i18next';
 
 import TextComponent from '../../components/TextComponent';
 
-import me2 from '../../assets/2.jpg';
-import me3 from '../../assets/3.jpg';
+import gabi from '../../assets/images/gabi.jpg';
+import hobbies from '../../assets/images/hobbies.jpg';
 
 import * as S from './styles';
 
@@ -29,8 +29,8 @@ const About = () => {
         </S.Container>
       </S.Main>
       <S.Images>
-        <img src={me3} alt="" />
-        <img src={me2} alt="" />
+        <img src={gabi} alt="" />
+        <img src={hobbies} alt="" />
       </S.Images>
     </S.Section>
   );

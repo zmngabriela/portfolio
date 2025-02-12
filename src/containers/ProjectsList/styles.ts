@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Projects = styled.ul`
-  height: 384px;
   display: flex;
   gap: 8px;
   align-items: top;

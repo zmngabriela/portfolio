@@ -27,6 +27,10 @@ export const Header = styled.header`
       width: 12px;
       height: 12px;
     }
+
+    &:focus {
+      outline: none;
+    }
   }
 `;
 
