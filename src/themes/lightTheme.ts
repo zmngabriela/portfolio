@@ -8,8 +8,7 @@ const lightTheme = {
   },
   icons: {
     toggleButton: require('../assets/icons/toggle.png'),
-    themeButton: require('../assets/icons/night-mode.png'),
-    arrow: require('../assets/icons/more.png')
+    themeButton: require('../assets/icons/night-mode.png')
   }
 };
 
