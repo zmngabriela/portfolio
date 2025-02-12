@@ -11,10 +11,10 @@ export const breakpoints = {
 
 export const fontSize = (extra = 0) => {
   return `
-    font-size: ${16 + extra}px;
+    font-size: ${14 + extra}px;
 
     @media (max-width: ${breakpoints.tablet}) {
-      font-size: ${11 + extra}px;
+      font-size: ${13 + extra}px;
     }
 
     @media (max-width: ${breakpoints.mobile}) {
@@ -58,7 +58,7 @@ export const EstiloGlobal = createGlobalStyle`
 
     p span,
     a span {
-      ${fontSize(2)};
+      ${fontSize(3)};
     }
   }
 

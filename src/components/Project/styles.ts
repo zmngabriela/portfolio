@@ -30,10 +30,18 @@ export const Card = styled.div`
   }
 
   @media (max-width: ${breakpoints.tablet}) {
-    width: calc(${breakpoints.mobile} - 100px);
+    width: ${breakpoints.mobile};
 
     &:hover {
-      width: ${breakpoints.mobile};
+      width: calc(${breakpoints.mobile} + 24px);
+    }
+  }
+
+  @media (max-width: ${breakpoints.mobile}) {
+    width: calc(${breakpoints.mobile} - 160px);
+
+    &:hover {
+      width: calc(${breakpoints.mobile} - 120px);
     }
   }
 `;

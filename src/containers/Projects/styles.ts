@@ -39,7 +39,6 @@ export const Skills = styled.div`
   @media (max-width: ${breakpoints.tablet}) {
     flex-direction: column;
     gap: 40px;
-    margin: 80px 0;
 
     img {
       width: 100%;
