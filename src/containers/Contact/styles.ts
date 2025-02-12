@@ -42,13 +42,11 @@ export const Container = styled.div`
 
   p,
   a {
-    font-family: 'brosta';
-    font-size: 14px;
+    font-family: 'costaline';
     color: ${(props) => props.theme.colors.principal};
 
     span {
-      font-family: 'costaline';
-      font-size: 13px;
+      font-family: 'brosta';
     }
   }
 `;

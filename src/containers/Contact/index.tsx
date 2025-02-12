@@ -22,31 +22,31 @@ const Contact = () => {
             ))}
         </h3>
         <div>
-          <p>
-            <span>{t('contact.contact')}</span>
-          </p>
+          <p>{t('contact.contact')}</p>
           <ul>
             <li>
               <a href="mailto:zmngabriela@gmail.com">
-                E-mail: zmngabriela@gmail.com
+                <span>E-mail: zmngabriela@gmail.com</span>
               </a>
             </li>
             <li>
               <p>
-                <a href="tel:605145486">{t('contact.phone')}: +34 605145486</a>
+                <a href="tel:605145486">
+                  <span>{t('contact.phone')}: +34 605145486</span>
+                </a>
               </p>
             </li>
             <li>
               <p>
-                <a href="https://www.linkedin.com/in/zmngabriela/">Linkedin</a>
+                <a href="https://www.linkedin.com/in/zmngabriela/">
+                  <span>Linkedin</span>
+                </a>
               </p>
             </li>
           </ul>
         </div>
         <div>
-          <p>
-            <span>{t('contact.subtitle')}</span>
-          </p>
+          <p>{t('contact.subtitle')}</p>
           <ul>
             <li>
               <p>
@@ -55,7 +55,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Github
+                  <span>Github</span>
                 </a>
               </p>
             </li>
@@ -66,7 +66,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Vercel
+                  <span>Vercel</span>
                 </a>
               </p>
             </li>
