@@ -23,52 +23,7 @@ const ProjectsList = () => {
         linkGithub: 'https://github.com/zmngabriela/e-commerce',
         linkVercel: 'https://e-commerce-opal-seven-34.vercel.app/',
         image:
-          'https://i.postimg.cc/C5YHD4yz/Screenshot-2024-12-23-at-21-33-32.png'
-      },
-      {
-        id: 2,
-        title: t('projects.list.contactList.title'),
-        description: t('projects.list.contactList.description'),
-        linkGithub: 'https://github.com/zmngabriela/contact-list',
-        linkVercel: 'https://contact-list-orcin.vercel.app/',
-        image:
-          'https://i.postimg.cc/66msXngD/Screenshot-2025-01-09-at-18-53-48.png'
-      },
-      {
-        id: 4,
-        title: t('projects.list.renovationLandingPage.title'),
-        description: t('projects.list.renovationLandingPage.description'),
-        linkGithub: 'https://github.com/zmngabriela/landing-page',
-        linkVercel: 'https://houserenovations.vercel.app/',
-        image:
-          'https://i.postimg.cc/T3hjrwsq/Screenshot-2024-12-23-at-21-34-10.png'
-      },
-      {
-        id: 5,
-        title: t('projects.list.toDoList.title'),
-        description: t('projects.list.toDoList.description'),
-        linkGithub: 'https://github.com/zmngabriela/todolist',
-        linkVercel: 'https://todozmn.vercel.app/',
-        image:
-          'https://i.postimg.cc/RhR1Tn9G/Screenshot-2024-12-23-at-21-34-24.png'
-      },
-      {
-        id: 6,
-        title: t('projects.list.tasks.title'),
-        description: t('projects.list.tasks.description'),
-        linkGithub: 'https://github.com/zmngabriela/tasks',
-        linkVercel: 'https://tasks-lyart.vercel.app/',
-        image:
-          'https://i.postimg.cc/kXJvgwFH/Screenshot-2024-12-23-at-21-34-42.png'
-      },
-      {
-        id: 7,
-        title: t('projects.list.yogaLandingPage.title'),
-        description: t('projects.list.yogaLandingPage.description'),
-        linkGithub: 'https://github.com/zmngabriela/landing-page-',
-        linkVercel: 'https://landing-page-yoga.vercel.app',
-        image:
-          'https://i.postimg.cc/g25V4pF9/Screenshot-2024-12-23-at-21-35-10.png'
+          'https://i.postimg.cc/6pBMkWXt/Screenshot-2025-02-12-at-13-58-22.png'
       },
       {
         id: 3,
@@ -77,7 +32,34 @@ const ProjectsList = () => {
         linkGithub: 'https://github.com/zmngabriela/portfolio',
         linkVercel: 'https://zmngabriela.vercel.app/',
         image:
-          'https://i.postimg.cc/sDT9QSTg/Screenshot-2024-12-23-at-21-35-50.png'
+          'https://i.postimg.cc/C1n7GdjH/Screenshot-2025-02-12-at-17-27-08.png'
+      },
+      {
+        id: 4,
+        title: t('projects.list.renovationLandingPage.title'),
+        description: t('projects.list.renovationLandingPage.description'),
+        linkGithub: 'https://github.com/zmngabriela/landing-page',
+        linkVercel: 'https://houserenovations.vercel.app/',
+        image:
+          'https://i.postimg.cc/DzM541bw/Screenshot-2025-02-12-at-17-27-27.png'
+      },
+      {
+        id: 7,
+        title: t('projects.list.yogaLandingPage.title'),
+        description: t('projects.list.yogaLandingPage.description'),
+        linkGithub: 'https://github.com/zmngabriela/landing-page-',
+        linkVercel: 'https://landing-page-yoga.vercel.app',
+        image:
+          'https://i.postimg.cc/q7Rj71qF/Screenshot-2025-02-12-at-17-28-25.png'
+      },
+      {
+        id: 6,
+        title: t('projects.list.tasks.title'),
+        description: t('projects.list.tasks.description'),
+        linkGithub: 'https://github.com/zmngabriela/tasks',
+        linkVercel: 'https://tasks-lyart.vercel.app/',
+        image:
+          'https://i.postimg.cc/L8vxRc9f/Screenshot-2025-02-12-at-17-28-53.png'
       }
     ]);
   }, [i18n.language, t]);
