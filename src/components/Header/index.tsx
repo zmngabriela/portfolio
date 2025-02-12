@@ -35,6 +35,16 @@ const Header = ({ toggleTheme }: Props) => {
     };
   }, [openNavRef]);
 
+  useEffect(() => {
+    const closeOpenNav = () => {
+      if (window.innerWidth > 1024) {
+        setMenuOpen(false);
+      }
+    };
+    window.addEventListener('resize', closeOpenNav);
+    return () => window.removeEventListener('resize', closeOpenNav);
+  }, []);
+
   return (
     <S.Header>
       <S.Container className="left">
@@ -51,9 +61,6 @@ const Header = ({ toggleTheme }: Props) => {
         </h2>
       </S.Container>
       <S.Links className={menuOpen ? 'open' : ''} ref={openNavRef}>
-        <li>
-          <a href="#projects">{t('navbar.projects')}</a>
-        </li>
         <li>
           <a href="#about">{t('navbar.about')}</a>
         </li>
