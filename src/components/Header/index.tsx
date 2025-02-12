@@ -10,7 +10,9 @@ type Props = {
 const Header = ({ toggleTheme }: Props) => {
   const { t, i18n } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
-  const openMenu = useRef<HTMLUListElement | null>(null);
+
+  const openNavRef = useRef<HTMLUListElement | null>(null);
+  const toggleRef = useRef<HTMLButtonElement | null>(null);
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
@@ -19,8 +21,10 @@ const Header = ({ toggleTheme }: Props) => {
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
-        openMenu.current &&
-        !openMenu.current.contains(event.target as Node)
+        openNavRef.current &&
+        toggleRef.current &&
+        !openNavRef.current.contains(event.target as Node) &&
+        !toggleRef.current.contains(event.target as Node)
       ) {
         setMenuOpen(false);
       }
@@ -29,7 +33,7 @@ const Header = ({ toggleTheme }: Props) => {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [openMenu]);
+  }, [openNavRef]);
 
   return (
     <S.Header>
@@ -46,7 +50,7 @@ const Header = ({ toggleTheme }: Props) => {
             ))}
         </h2>
       </S.Container>
-      <S.Links className={menuOpen ? 'open' : ''} ref={openMenu}>
+      <S.Links className={menuOpen ? 'open' : ''} ref={openNavRef}>
         <li>
           <a href="#projects">{t('navbar.projects')}</a>
         </li>
@@ -58,7 +62,11 @@ const Header = ({ toggleTheme }: Props) => {
         </li>
       </S.Links>
       <S.Container>
-        <S.ToggleButton onClick={() => setMenuOpen(!menuOpen)} type="button">
+        <S.ToggleButton
+          onClick={() => setMenuOpen(!menuOpen)}
+          type="button"
+          ref={toggleRef}
+        >
           <img src="" alt="Toggle Menu" />
         </S.ToggleButton>
         <S.ThemeButton onClick={toggleTheme} type="button">
@@ -69,8 +77,9 @@ const Header = ({ toggleTheme }: Props) => {
           id="language"
           onChange={(e) => changeLanguage(e.target.value)}
         >
-          <option value="en">English</option>
-          <option value="es">Spanish</option>
+          <option value="en">{t('languages.english')}</option>
+          <option value="es">{t('languages.spanish')}</option>
+          <option value="pt">{t('languages.portuguese')}</option>
         </select>
       </S.Container>
     </S.Header>
