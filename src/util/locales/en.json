@@ -5,6 +5,11 @@
     "about": "about me",
     "contact": "Let's chat"
   },
+  "languages": {
+    "english": "English",
+    "spanish": "Spanish",
+    "portuguese": "Portuguese"
+  },
   "projects": {
     "title": "Projects",
     "github": "See code in Github",
@@ -12,11 +17,7 @@
     "list": {
       "e-commerce": {
         "title": "E-commerce",
-        "description": "A e-commerce built with React, Redux for state management, and Styled Components. This project features a dynamic carousel, real-time filtering based on categories, price, and search term, as well as responsive design. It also integrates with an API to fetch product categories and pagination."
-      },
-      "contactList": {
-        "title": "Contact List",
-        "description": "A contact management web application built with React, Redux for state management, and Styled Components for custom UI design. This project showcases advanced form handling and real-time updates, enhancing user experience."
+        "description": "A e-commerce built with React, Redux, and Styled Components. Powered by a fake REST API, this project features JWS authentication for login, pagination. As well filtering based on categories, price, and search term, mocked wishlist and newsletter, and a dynamic carousel."
       },
       "portfolio": {
         "title": "Portfolio",
@@ -25,10 +26,6 @@
       "renovationLandingPage": {
         "title": "Landing Page",
         "description": "A professional landing page, developed using HTML, CSS, and Gulp for task automation. The project emphasizes clean, modern design and mobile responsiveness."
-      },
-      "toDoList": {
-        "title": "To Do List",
-        "description": "A task management application developed using Vue.js and Bootstrap, designed for academic purposes. This project features dynamic task creation, editing, and deletion, along with a clean, responsive, and user-friendly interface. It demonstrates modern practices and component-based architecture."
       },
       "tasks": {
         "title": "Tasks",
@@ -41,8 +38,12 @@
     },
     "skills": {
       "title": "I´ve been studying HTML5, CSS3, JavaScript, TypeScript",
+      "state": "State Management Tool:",
       "testingTools": "Testing tools:",
+      "preprocessors": "Preprocessors:",
       "versionControl": "Version Control Systems:",
+      "form": "Form management:",
+      "tools": "Tools and software:",
       "crossBrowser": "Cross-Browser Compatibility",
       "techniques": "Ajax and Error Handling Techniques",
       "responsiveness": "Responsiveness",

@@ -1,64 +1,65 @@
 {
   "navbar": {
-    "role": "Desarrolladora Frontend Junior",
-    "projects": "proyectos",
-    "about": "sobre mí",
+    "role": "Desarrollador Frontend Junior",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
     "contact": "Hablemos"
+  },
+  "languages": {
+    "english": "Inglés",
+    "spanish": "Español",
+    "portuguese": "Portugués"
   },
   "projects": {
     "title": "Proyectos",
     "github": "Ver código en Github",
-    "subtitle": "Proyectos personales y estudios",
+    "subtitle": "Proyectos personales y de estudios",
     "list": {
       "e-commerce": {
         "title": "E-commerce",
-        "description": "Un e-commerce creado con React, Redux para la gestión de estado y Styled Components. Este proyecto incluye un carrusel dinámico, filtrado en tiempo real basado en categorías, precio y términos de búsqueda, además de un diseño responsivo. También se integra con una API para obtener categorías de productos y paginación."
-      },
-      "contactList": {
-        "title": "Lista de Contactos",
-        "description": "Una aplicación web para la gestión de contactos creada con React, Redux para la gestión de estado y Styled Components para un diseño de interfaz personalizado. Este proyecto muestra un manejo avanzado de formularios y actualizaciones en tiempo real, mejorando la experiencia del usuario."
+        "description": "Un e-commerce construido con React, Redux y Styled Components. Impulsado por una API REST falsa, este proyecto cuenta con autenticación JWS para el inicio de sesión, paginación, además de filtrado basado en categorías, precio y términos de búsqueda, lista de deseos simulada y newsletter, además de un carrusel dinámico."
       },
       "portfolio": {
         "title": "Portafolio",
-        "description": "Un sitio web de portafolio personal creado con React y Styled Components, con temas dinámicos e internacionalización (i18n). Este proyecto demuestra la capacidad de crear aplicaciones responsivas y multilingües con enfoque en diseño UI/UX."
+        "description": "Un portafolio personal creado con React y Styled Components, con tematización dinámica e internacionalización (i18n). Este proyecto demuestra la capacidad de construir aplicaciones receptivas y multilingües con un enfoque en UI/UX."
       },
       "renovationLandingPage": {
-        "title": "Página de Aterrizaje",
-        "description": "Una página de aterrizaje profesional desarrollada con HTML, CSS y Gulp para la automatización de tareas. El proyecto enfatiza un diseño limpio, moderno y adaptable a dispositivos móviles."
-      },
-      "toDoList": {
-        "title": "Lista de Tareas",
-        "description": "Una aplicación para la gestión de tareas desarrollada con Vue.js y Bootstrap, diseñada con fines académicos. Este proyecto incluye creación, edición y eliminación de tareas dinámicas, junto con una interfaz limpia, responsiva y fácil de usar. Demuestra prácticas modernas y arquitectura basada en componentes."
+        "title": "Landing Page",
+        "description": "Una página de aterrizaje profesional, desarrollada con HTML, CSS y Gulp para la automatización de tareas. El proyecto enfatiza un diseño limpio, moderno y responsivo."
       },
       "tasks": {
         "title": "Tareas",
-        "description": "Una aplicación de seguimiento de tareas desarrollada con React, Redux para una gestión eficiente del estado y Styled Components para una interfaz personalizada. La aplicación permite agregar, editar y eliminar tareas, con persistencia en almacenamiento local para mayor comodidad del usuario."
+        "description": "Una aplicación de seguimiento de tareas desarrollada con React, Redux para la gestión eficiente del estado y Styled Components para una interfaz personalizada. La aplicación permite a los usuarios agregar, editar y eliminar tareas, con persistencia en el almacenamiento local para mayor comodidad."
       },
       "yogaLandingPage": {
-        "title": "Página de Aterrizaje de Estudio",
-        "description": "Una página de aterrizaje para un estudio de yoga creada con Bootstrap para diseño responsivo y jQuery para validación de formularios. Este proyecto destaca la capacidad de crear páginas atractivas y funcionales."
+        "title": "Landing Page Estudio",
+        "description": "Una página de aterrizaje para un estudio de yoga, construida con Bootstrap para un diseño responsivo y jQuery para la validación de formularios. Este proyecto resalta la capacidad de crear páginas atractivas y funcionales."
       }
     },
     "skills": {
       "title": "He estado estudiando HTML5, CSS3, JavaScript, TypeScript",
+      "state": "Herramienta de gerenciamento de estado:",
       "testingTools": "Herramientas de prueba:",
-      "versionControl": "Sistemas de Control de Versiones:",
-      "crossBrowser": "Compatibilidad entre Navegadores",
+      "preprocessors": "Preprocesadores:",
+      "versionControl": "Sistemas de control de versiones:",
+      "form": "Gerenciamento de fomularios:",
+      "tools": "Herramientas y programas:",
+      "crossBrowser": "Compatibilidad entre navegadores",
       "techniques": "Técnicas de Ajax y Manejo de Errores",
       "responsiveness": "Adaptabilidad",
-      "OOP": "Programación Orientada a Objetos (OOP)"
+      "oop": "Programación Orientada a Objetos (OOP)"
     }
   },
   "about": {
-    "title": "Quién es",
-    "description": "Social, curiosa, proactiva. Ama la naturaleza, la música, la fotografía y viajar. Cinéfila, entusiasta de la neurociencia. Independiente y fuerte.",
-    "more": "Estudiante de desarrollo Full Stack Java. Experiencia/estudios en Diseño Gráfico y de Moda, lo que me permite crear interfaces más intuitivas y atractivas. Cambié de carrera después de encontrar propósito y valores. Motivada por los cambios. Viviendo en Barcelona, España. Originaria de Santa Catarina, sur de Brasil.",
-    "extra": "Siendo una aprendiz rápida y disfrutando trabajar en proyectos de diferentes áreas, actualmente estoy abierta a todo tipo de desafíos."
+    "title": "¿Quién es?",
+    "description": "Sociable, curioso, proactivo. Ama la naturaleza, la música, la fotografía y viajar. Cinéfilo, entusiasta de la neurociencia. Independiente y fuerte.",
+    "more": "Estudiante de desarrollo Java Full Stack. Experiencia y estudios en Diseño Gráfico y de Moda, lo que me permite crear interfaces más intuitivas y atractivas. Cambié de carrera después de encontrar propósito y valores. Me motiva trabajar en entornos dinámicos. Vivo en Barcelona, España. De Santa Catarina, sur de Brasil.",
+    "extra": "Siendo un aprendiz rápido y disfrutando trabajar en proyectos de diferentes ámbitos, actualmente estoy abierto a todo tipo de desafíos."
   },
   "contact": {
     "title": "Conectemos",
     "contact": "Contáctame a través de",
     "phone": "Teléfono",
-    "subtitle": "Mira en qué he estado trabajando"
+    "subtitle": "Descubre en qué he estado trabajando"
   }
 }

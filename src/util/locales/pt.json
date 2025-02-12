@@ -1,0 +1,65 @@
+{
+  "navbar": {
+    "role": "Desenvolvedora Frontend Junior",
+    "projects": "Projetos",
+    "about": "Sobre mim",
+    "contact": "Vamos conversar"
+  },
+  "languages": {
+    "english": "Inglês",
+    "spanish": "Espanhol",
+    "portuguese": "Português"
+  },
+  "projects": {
+    "title": "Projetos",
+    "github": "Ver código no Github",
+    "subtitle": "Projetos pessoais e de estudos",
+    "list": {
+      "e-commerce": {
+        "title": "E-commerce",
+        "description": "Um e-commerce desenvolvido com React, Redux e Styled Components. Utilizando uma API REST falsa, este projeto conta com autenticação JWS para login, paginação, além de filtros por categorias, preço e termo de busca, lista de desejos simulada e newsletter, além de um carrossel dinâmico."
+      },
+      "portfolio": {
+        "title": "Portfólio",
+        "description": "Um portfólio pessoal criado com React e Styled Components, com tema dinâmico e internacionalização (i18n). Este projeto demonstra a habilidade de construir aplicações responsivas e multilíngues com foco em UI/UX."
+      },
+      "renovationLandingPage": {
+        "title": "Landing Page",
+        "description": "Uma página de apresentação profissional, desenvolvida com HTML, CSS e Gulp para automação de tarefas. O projeto enfatiza um design limpo, moderno e responsivo."
+      },
+      "tasks": {
+        "title": "Tarefas",
+        "description": "Um aplicativo de gerenciamento de tarefas desenvolvido com React, Redux para gerenciamento eficiente de estado e Styled Components para uma interface personalizada. O app permite que os usuários adicionem, editem e excluam tarefas, contando com persistência no armazenamento local para maior comodidade."
+      },
+      "yogaLandingPage": {
+        "title": "Landing Page Estúdio",
+        "description": "Uma landing page para um estúdio de yoga, construída com Bootstrap para um design responsivo e jQuery para validação de formulários. Este projeto destaca a capacidade de criar páginas visuais e funcionais."
+      }
+    },
+    "skills": {
+      "title": "Tenho estudado HTML5, CSS3, JavaScript, TypeScript",
+      "state": "Ferramenta de gerenciamento de estado:",
+      "testingTools": "Ferramentas de teste:",
+      "versionControl": "Sistemas de controle de versão:",
+      "preprocessors": "Pré-processadores:",
+      "form": "Gerenciamento de fomulários:",
+      "tools": "Ferramentas e programas:",
+      "crossBrowser": "Compatibilidade entre navegadores",
+      "techniques": "Técnicas de Ajax e Tratamento de Erros",
+      "responsiveness": "Responsividade",
+      "oop": "Programação Orientada a Objetos (OOP)"
+    }
+  },
+  "about": {
+    "title": "Quem é",
+    "description": "Sociável, curioso, proativo. Ama a natureza, música, fotografia e viajar. Cinéfilo, entusiasta de neurociência. Independente e forte.",
+    "more": "Estudante de desenvolvimento Java Full Stack. Experiência e estudos em Design Gráfico e de Moda, o que me permite criar interfaces mais intuitivas e atraentes. Mudei de carreira depois de encontrar propósito e valores. Gosto de trabalhar em ambientes dinâmicos. Moro em Barcelona, Espanha. Sou de Santa Catarina, sul do Brasil.",
+    "extra": "Sendo um aprendiz rápido e gostando de trabalhar em projetos de diferentes áreas, estou atualmente aberto a todo tipo de desafio."
+  },
+  "contact": {
+    "title": "Vamos conectar",
+    "contact": "Entre em contato comigo através de",
+    "phone": "Telefone",
+    "subtitle": "Confira no que tenho trabalhado"
+  }
+}
