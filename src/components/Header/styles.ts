@@ -6,7 +6,7 @@ export const Header = styled.header`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 8px 24px;
+  padding: 16px 24px;
   background-color: ${(props) => props.theme.colors.background};
 
   button,
@@ -16,7 +16,6 @@ export const Header = styled.header`
     cursor: pointer;
 
     font-family: 'brosta';
-    font-size: 16px;
     text-transform: uppercase;
 
     -webkit-appearance: none;
@@ -32,6 +31,10 @@ export const Header = styled.header`
       outline: none;
     }
   }
+
+  @media (max-width: ${breakpoints.mobile}) {
+    padding: 16px 16px;
+  }
 `;
 
 export const Container = styled.div`
@@ -42,12 +45,10 @@ export const Container = styled.div`
   h1 {
     font-family: 'brosta';
     text-transform: uppercase;
-    font-size: 16px;
   }
 
   h2 {
     font-family: 'brosta';
-    font-size: 16px;
 
     span {
       font-family: 'costaline';
@@ -83,7 +84,7 @@ export const Links = styled.ul`
   &.open {
     position: absolute;
     top: 100%;
-    right: 24px;
+    right: 57px;
     display: flex;
     flex-direction: column;
     gap: 8px;
