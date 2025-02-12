@@ -9,6 +9,20 @@ export const breakpoints = {
   mobile: '425px'
 };
 
+const fontSize = (extra = 0) => {
+  return `
+    font-size: ${16 + extra}px;
+
+    @media (max-width: ${breakpoints.tablet}) {
+      font-size: ${11 + extra}px;
+    }
+
+    @media (max-width: ${breakpoints.mobile}) {
+      font-size: ${12 + extra}px;
+    }
+  `;
+};
+
 export const EstiloGlobal = createGlobalStyle`
   * {
     margin: 0;
@@ -35,6 +49,15 @@ export const EstiloGlobal = createGlobalStyle`
       @media (max-width: ${breakpoints.mobile}) {
         font-size: 28px;
       }
+    }
+
+    h1, h2, p, li, button, select, a {
+      ${fontSize(0)};
+    }
+
+    p span,
+    a span {
+      ${fontSize(2)};
     }
   }
 
