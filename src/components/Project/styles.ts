@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { breakpoints } from '../../styles/styles';
+import { breakpoints, fontSize } from '../../styles/styles';
 
 export const Card = styled.div`
   width: ${breakpoints.desktop};
@@ -17,7 +17,7 @@ export const Card = styled.div`
     }
 
     p.description {
-      opacity: 1;
+      opacity: 0.7;
     }
   }
 
@@ -90,8 +90,8 @@ export const LinkVercel = styled.a`
 
 export const Description = styled.p`
   width: 100%;
-  white-space: wrap;
   font-family: 'costaline';
+  white-space: wrap;
   opacity: 0;
   transition: opacity ease 1s;
 `;

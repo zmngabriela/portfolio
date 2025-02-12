@@ -9,7 +9,7 @@ export const breakpoints = {
   mobile: '425px'
 };
 
-const fontSize = (extra = 0) => {
+export const fontSize = (extra = 0) => {
   return `
     font-size: ${16 + extra}px;
 
@@ -30,6 +30,7 @@ export const EstiloGlobal = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    text-size-adjust: none;
   }
 
   body, select {
