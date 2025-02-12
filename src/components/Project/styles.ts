@@ -1,36 +1,46 @@
 import styled from 'styled-components';
-
-type ContainerProps = {
-  descriptionOpen?: boolean;
-};
+import { breakpoints } from '../../styles/styles';
 
 export const Card = styled.div`
-  width: 400px;
-  height: 100%;
+  width: 1024px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 
+  transition: width 0.5s ease-in-out;
+
   &:hover {
-    img.more {
+    width: 1048px;
+
+    img.arrow {
       opacity: 0.7;
+    }
+
+    p.description {
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: ${breakpoints.desktop}) {
+    width: ${breakpoints.tablet};
+
+    &:hover {
+      width: 792px;
+    }
+  }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    width: ${breakpoints.mobile};
+
+    &:hover {
+      width: 449px;
     }
   }
 `;
 
-export const Container = styled.div<ContainerProps>`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
-
-  img.more {
-    content: url(${(props) => props.theme.icons.arrow});
-    width: 16px;
-    padding: 8px 0;
-    transform: ${(props) =>
-      props.descriptionOpen ? 'rotate(-90deg)' : 'rotate(90deg)'};
-    opacity: 0;
-    transition: transform 0.8s ease, opacity 0.8s ease;
-  }
 
   &.center {
     align-items: center;
@@ -53,30 +63,30 @@ export const LinkGithub = styled.a`
   font-size: 13px;
 `;
 
-export const LinkVercel = styled.a`
+export const Image = styled.div`
   position: relative;
-  display: inline-block;
 
-  img.vercel {
+  img.preview {
     width: 100%;
     display: block;
+
+    user-drag: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
+    user-select: none;
   }
+`;
+
+export const LinkVercel = styled.a`
+  position: absolute;
+  top: 10px;
+  right: 10px;
 
   img.arrow {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 12px;
-    height: 12px;
-    transform: rotate(-40deg);
+    width: 18px;
+    height: 18px;
     opacity: 0;
     transition: opacity ease 1s;
-  }
-
-  &:hover {
-    img.arrow {
-      opacity: 0.7;
-    }
   }
 `;
 
@@ -85,4 +95,6 @@ export const Description = styled.p`
   white-space: wrap;
   font-family: 'costaline';
   font-size: 13px;
+  opacity: 0;
+  transition: opacity ease 1s;
 `;
