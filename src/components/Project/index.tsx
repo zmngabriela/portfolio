@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import arrow from '../../assets/icons/arrow.png';
@@ -22,8 +23,42 @@ const Project = ({
 }: ProjectType) => {
   const { t } = useTranslation();
 
+  const projectRef = useRef<HTMLDivElement>(null);
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth <= 456) {
+      const project = projectRef.current;
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              setIsVisible(true);
+            } else {
+              setIsVisible(false);
+            }
+          });
+        },
+        { threshold: 0.6 }
+      );
+
+      if (project) {
+        observer.observe(project);
+      }
+
+      console.log('teste', isVisible);
+
+      return () => {
+        if (project) {
+          observer.unobserve(project);
+        }
+      };
+    }
+  }, []);
+
   return (
-    <S.Card>
+    <S.Card ref={projectRef} className={isVisible ? 'display' : ''}>
       <S.Container>
         <S.Info>
           <h2>{title}</h2>
