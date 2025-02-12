@@ -50,7 +50,7 @@ const Projects = () => {
               <p>
                 <span>{t('projects.skills.versionControl')}</span> Git, GitHub{' '}
                 <br />
-                <span>{t('projects.skills.form')}</span> Formik, Yup
+                <span>{t('projects.skills.form')}</span> Formik, Yup, jQuery
                 <br />
                 <span>{t('projects.skills.crossBrowser')}:</span> Babel Compiler{' '}
                 <br />
