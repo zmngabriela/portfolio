@@ -12,10 +12,6 @@ export const Text = styled.div`
     span {
       font-family: 'brosta';
     }
-
-    &:nth-of-type(2) {
-      margin-top: 4px;
-    }
   }
 
   @media (max-width: ${breakpoints.desktop}) {
