@@ -29,7 +29,7 @@ const ProjectsList = () => {
         id: 4,
         title: t('projects.list.calhasGaspar.title'),
         description: t('projects.list.calhasGaspar.description'),
-        linkGithub: 'https://github.com/zmngabriela/landing-page',
+        linkGithub: 'https://github.com/zmngabriela/calhas-gaspar',
         linkVercel: 'https://calhas-gaspar.vercel.app/',
         image:
           'https://i.postimg.cc/L5V250J7/Screenshot-2025-03-10-at-11-47-03.png'
