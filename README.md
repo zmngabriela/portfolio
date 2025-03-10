@@ -1,178 +1,51 @@
-# CREATE REACT APP
-npx create-react-app projectName --template typescript
-cd ./projectName
+# Personal Portfolio Website
 
+Welcome to my personal portfolio project! This is a web application built to showcase my skills and some of the projects I have worked on. I developed it using modern web technologies, and it is fully responsive, multi-lingual, and customizable with a dynamic theme.
 
-## INSTALL DEPENDENCIES
-Here, I'm installing specific versions taught in the course:
-npm install
-  @eslint/js
-  @typescript-eslint/eslint-plugin
-  @typescript-eslint/parser
-  eslint0
-  eslint-config-prettier
-  eslint-plugin-prettier
-  eslint-plugin-react2
-  eslint-plugin-react-hooks
-  globals0
-  prettier
+## Table of Contents
 
+- [About the Project](#about-the-project)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Project Showcase](#project-showcase)
+- [Contact](#contact)
+- [License](#license)
 
-### .EDITORCONFIG EXPLANATION
-Define this file as the root configuration, which prevents configurations from other directories from being applied.
-Create a .editorconfig file
-root = true
-  [ * ]
-  indent_style = space: Uses spaces (instead of tabs) to indent the code.
-  indent_size = 2: Sets indentation to 2 spaces.
-  end_of_line = lf: Uses "line feed" (LF) to indicate the end of a line, common in Unix and Linux systems.
-  charset = utf-8: Sets the character encoding to UTF-8.
-  trim_trailing_whitespace = true: Removes trailing whitespace at the end of each line.
-  insert_final_newline = true: Automatically inserts a newline at the end of each file.
+## About the Project
 
+This is a personal portfolio built with **React**, **Styled Components**, and **React-i18next** for internationalization (i18n). The website dynamically switches between **light** and **dark** themes, and it is fully responsive, providing a seamless experience across all devices.
 
-#### ESLINT CONFIG
-Create ESLint configuration file
-npm init @eslint/config@latest
+It showcases several personal projects I've worked on, such as an **E-commerce** platform, a **Task Tracker** application, and a **Landing Page** for a business, all of which demonstrate my skills in **React**, **Redux**, **Vue.js**, and other modern tools.
 
-  import globals from 'globals';
-  import pluginJs from "@eslint/js";
-  import tsPlugin from '@typescript-eslint/eslint-plugin';
-  import parser from '@typescript-eslint/parser';
-  import reactPlugin from 'eslint-plugin-react';
-  import reactHooksPlugin from 'eslint-plugin-react-hooks';
-  import prettierPlugin from 'eslint-plugin-prettier';
+### Main Features:
+- **Dark/Light Theme Toggle**: The website allows users to toggle between light and dark modes.
+- **Multi-Language Support**: Available in English, Spanish, and Portuguese.
+- **Interactive Project Showcase**: Users can view project details with live demos and links to GitHub repositories.
+- **Skills Section**: Detailed breakdown of the technologies I’m familiar with, including React, Redux, TypeScript, testing tools, and more.
 
-  export default [
-    {
-      files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
-      languageOptions: {
-        parser,
-        globals: globals.browser
-      },
-      plugins: {
-        '@typescript-eslint': tsPlugin,
-        react: reactPlugin,
-        'react-hooks': reactHooksPlugin,
-        prettier: prettierPlugin
-      },
-      rules: {
-        'no-unused-vars': 'error',
-        'no-undef': 'error',
-        'react/prop-types': 'off',
-        'react/react-in-jsx-scope': 'off',
-        '@typescript-eslint/explicit-module-boundary-types': 'off',
-        'react-hooks/rules-of-hooks': 'error',
-        'react-hooks/exhaustive-deps': 'warn',
-        'prettier/prettier': 'error'
-      }
-    },
-    pluginJs.configs.recommended,
-    ...tseslint.configs.recommended,
-    pluginReact.configs.flat.recommended,
-  ];
+## Technologies Used
 
+- **React** for building the user interface
+- **Styled Components** for component-level styling
+- **React-i18next** for internationalization (i18n)
+- **Redux** for state management in complex applications
+- **SASS/LESS** for pre-processing styles
+- **Jest** and **Cypress** for testing
+- **Git** for version control
+- **Webpack** and **Babel** for bundling and transpiling code
+- **Vercel** for hosting the project
+- **Figma** and **VS Code** for design and development
 
-##### PRETTIER:
-npm install --save-dev prettier
-create a settings.json file and place it in the .vscode folder (format on save must be enabled in settings)
+## Features
 
-  {
-    "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
-  }
+- **Multi-language support**: The portfolio can be viewed in English, Spanish, and Portuguese.
+- **Dark/Light Mode Toggle**: Users can switch themes with a button click, enhancing the UX.
+- **Responsive Design**: The layout adapts to any screen size, from desktops to mobile phones.
+- **Interactive Projects Carousel**: A horizontal scrollable list showcasing my past work with descriptions, images, and links to GitHub and live demo.
+- **Skills & Tools Section**: Displays all the technologies I've been learning and working with, including HTML5, CSS3, JavaScript, TypeScript, React, and more.
 
-Automate and make all files run through Prettier:
-npx prettier --write src
-If Prettier throws an error, run npx eslint --fix src
+## Installation
 
-PRETTIER CONFIG EXPLANATION
-    "semi": true: Adds a semicolon at the end of every statement.
-    "trailingComma": "none": Does not allow commas at the end of objects or arrays.
-    "singleQuote": true: Uses single quotes instead of double quotes for strings.
-    "bracketSpacing": true: Adds spaces between brackets and the content inside objects (e.g., { key: 'value' }).
-    "arrowParens": "always": Always includes parentheses around arrow function parameters (e.g., (param) => {}).
-
-
-###### FINISH REACT APP SETUP:
-run npm start
-this will open the React page viewer
-download the React extension for Chrome
-
-
-###### STYLED COMPONENTS:
-npm i --save styled-components
-VSCode doesn't recognize this format, and to use it, you need to install the pluggin eslint@typescript-eslint/no-unused-vars
-You can do it via quick fix, or via npm
-
-npm i --save-dev eslint@typescript-eslint/no-unused-vars
-npm i --save-dev @types/styled-components
-
-When importing a styled component into a component, you can use an alias instead of the original name given in the styles file.
-We can use the styled component directly in the component file. It's not ideal, but if you choose to do this, it should be placed before the component code.
-
-
-###### THEME CONFIGURING
-If there is an error in the theme saying that this type does not exist in DefaultTheme, which is the default theme type of styled-components:
-We need to config that the type we are using is from the theme we created.
-In the theme file (e.g., dark.ts) - add the theme and add this at the end:
-
-export type Theme = {
-  corPrincipal: string;
-  corSecundaria: string;
-  corFundo: string;
-  corFundoBotao: string;
-  corBorda: string;
-};
-
-
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run this project locally, clone the repository:
+   git clone https://github.com/zmngabriela/portfolio.git
