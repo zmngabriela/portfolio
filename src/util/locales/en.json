@@ -22,17 +22,13 @@
         "title": "Portfolio",
         "description": "A personal portfolio website created with React and Styled Components, featuring dynamic theming and internationalization (i18n). This project demonstrates ability to build responsive, multi-language applications with a focus on UI/UX design."
       },
-      "renovationLandingPage": {
+      "calhasGaspar": {
         "title": "Landing Page",
-        "description": "A professional landing page, developed using HTML, CSS, and Gulp for task automation. The project emphasizes clean, modern design and mobile responsiveness."
+        "description": "A business landing page, developed using VueJS framework and Tailwind for dynamic styling. Includes a interative animated form, for better user experience. The project emphasizes clean, modern design and mobile responsiveness."
       },
       "tasks": {
         "title": "Tasks",
         "description": "A task tracking application developed with React, Redux for efficient state management, and Styled Components for a custom UI. The app allows users to add, edit, and delete tasks, featuring local storage persistence for user convenience."
-      },
-      "yogaLandingPage": {
-        "title": "Landing Page Studio",
-        "description": "A yoga studio landing page built with Bootstrap for responsive design and jQuery for form validation. This project highlights ability to create visually appealing and functional landing pages."
       }
     },
     "skills": {

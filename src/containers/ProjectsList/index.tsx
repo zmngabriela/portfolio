@@ -26,31 +26,13 @@ const ProjectsList = () => {
           'https://i.postimg.cc/6pBMkWXt/Screenshot-2025-02-12-at-13-58-22.png'
       },
       {
-        id: 3,
-        title: t('projects.list.portfolio.title'),
-        description: t('projects.list.portfolio.description'),
-        linkGithub: 'https://github.com/zmngabriela/portfolio',
-        linkVercel: 'https://zmngabriela.vercel.app/',
-        image:
-          'https://i.postimg.cc/C1n7GdjH/Screenshot-2025-02-12-at-17-27-08.png'
-      },
-      {
         id: 4,
-        title: t('projects.list.renovationLandingPage.title'),
-        description: t('projects.list.renovationLandingPage.description'),
+        title: t('projects.list.calhasGaspar.title'),
+        description: t('projects.list.calhasGaspar.description'),
         linkGithub: 'https://github.com/zmngabriela/landing-page',
-        linkVercel: 'https://houserenovations.vercel.app/',
+        linkVercel: 'https://calhas-gaspar.vercel.app/',
         image:
-          'https://i.postimg.cc/DzM541bw/Screenshot-2025-02-12-at-17-27-27.png'
-      },
-      {
-        id: 7,
-        title: t('projects.list.yogaLandingPage.title'),
-        description: t('projects.list.yogaLandingPage.description'),
-        linkGithub: 'https://github.com/zmngabriela/landing-page-',
-        linkVercel: 'https://landing-page-yoga.vercel.app',
-        image:
-          'https://i.postimg.cc/q7Rj71qF/Screenshot-2025-02-12-at-17-28-25.png'
+          'https://i.postimg.cc/L5V250J7/Screenshot-2025-03-10-at-11-47-03.png'
       },
       {
         id: 6,
@@ -60,6 +42,15 @@ const ProjectsList = () => {
         linkVercel: 'https://tasks-lyart.vercel.app/',
         image:
           'https://i.postimg.cc/L8vxRc9f/Screenshot-2025-02-12-at-17-28-53.png'
+      },
+      {
+        id: 3,
+        title: t('projects.list.portfolio.title'),
+        description: t('projects.list.portfolio.description'),
+        linkGithub: 'https://github.com/zmngabriela/portfolio',
+        linkVercel: 'https://zmngabriela.vercel.app/',
+        image:
+          'https://i.postimg.cc/tCTGvfxr/Screenshot-2025-03-09-at-22-04-38.png'
       }
     ]);
   }, [i18n.language, t]);
