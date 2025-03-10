@@ -36,8 +36,8 @@ const Projects = () => {
                 <span>{t('projects.skills.testingTools')}</span> Jest, Testing
                 Library, Cypress, Mock Service Worker
                 <br />
-                <span>JavaScript Libraries:</span> jQuery, Bootstrap, i18next
-                internationalization-framework
+                <span>JavaScript Libraries:</span> jQuery, Bootstrap, Tailwind,
+                i18next internationalization-framework
                 <br />
                 <span>Task Runners / Module Bundlers:</span> Gulp, Webpack,
                 Grunt
