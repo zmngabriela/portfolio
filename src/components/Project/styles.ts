@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { breakpoints } from '../../styles/styles';
 
 export const Card = styled.div`
-  width: ${breakpoints.desktop};
+  width: ${breakpoints.mobile};
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -10,7 +10,7 @@ export const Card = styled.div`
   transition: width 0.5s ease-in-out;
 
   &:hover {
-    width: calc(${breakpoints.desktop} + 24px);
+    width: calc(${breakpoints.mobile} + 24px);
 
     img.arrow {
       opacity: 0.7;
@@ -24,22 +24,6 @@ export const Card = styled.div`
   &.display {
     p.description {
       opacity: 0.7;
-    }
-  }
-
-  @media (max-width: ${breakpoints.desktop}) {
-    width: ${breakpoints.tablet};
-
-    &:hover {
-      width: calc(${breakpoints.tablet} + 24px);
-    }
-  }
-
-  @media (max-width: ${breakpoints.tablet}) {
-    width: ${breakpoints.mobile};
-
-    &:hover {
-      width: calc(${breakpoints.mobile} + 24px);
     }
   }
 
