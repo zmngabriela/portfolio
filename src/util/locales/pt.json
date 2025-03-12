@@ -18,6 +18,10 @@
         "title": "E-commerce",
         "description": "Um e-commerce desenvolvido com React, Redux e Styled Components. Utilizando uma API REST falsa, este projeto conta com autenticação JWS para login, paginação, além de filtros por categorias, preço e termo de busca, lista de desejos simulada e newsletter, além de um carrossel dinâmico."
       },
+      "leonardo": {
+        "title": "Portfólio de Leonardo Cadore",
+        "description": "Um portfólio de fotografia e videografia desenvolvido com React e Bootstrap, com um cursor personalizado e vídeos hospedados no Cloudinary para uma experiência de visualização perfeita. O design proporciona uma presença web moderna e cinematográfica."
+      },
       "portfolio": {
         "title": "Portfólio",
         "description": "Um portfólio pessoal criado com React e Styled Components, com tema dinâmico e internacionalização (i18n). Este projeto demonstra a habilidade de construir aplicações responsivas e multilíngues com foco em UI/UX."

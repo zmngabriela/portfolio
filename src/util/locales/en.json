@@ -18,6 +18,10 @@
         "title": "E-commerce",
         "description": "A e-commerce built with React, Redux, and Styled Components. Powered by a fake REST API, this project features JWS authentication for login, pagination. As well filtering based on categories, price, and search term, mocked wishlist and newsletter, and a dynamic carousel."
       },
+      "leonardo": {
+        "title": "Leonardo Cadore's Portfolio",
+        "description": "A photography and videography showcase developed with React and Bootstrap, featuring custom cursor and Cloudinary-hosted videos for a seamless viewing experience. The design delivers a modern and cinematic web presence."
+      },
       "portfolio": {
         "title": "Portfolio",
         "description": "A personal portfolio website created with React and Styled Components, featuring dynamic theming and internationalization (i18n). This project demonstrates ability to build responsive, multi-language applications with a focus on UI/UX design."

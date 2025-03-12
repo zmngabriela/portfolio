@@ -26,7 +26,16 @@ const ProjectsList = () => {
           'https://i.postimg.cc/6pBMkWXt/Screenshot-2025-02-12-at-13-58-22.png'
       },
       {
-        id: 4,
+        id: 2,
+        title: t('projects.list.leonardo.title'),
+        description: t('projects.list.leonardo.description'),
+        linkGithub: 'https://github.com/zmngabriela/leonardo',
+        linkVercel: 'https://leonardo-seven-beta.vercel.app/',
+        image:
+          'https://i.postimg.cc/Xqh06Bw8/Screenshot-2025-03-12-at-18-49-41.png'
+      },
+      {
+        id: 3,
         title: t('projects.list.calhasGaspar.title'),
         description: t('projects.list.calhasGaspar.description'),
         linkGithub: 'https://github.com/zmngabriela/calhas-gaspar',
@@ -35,7 +44,7 @@ const ProjectsList = () => {
           'https://i.postimg.cc/L5V250J7/Screenshot-2025-03-10-at-11-47-03.png'
       },
       {
-        id: 6,
+        id: 4,
         title: t('projects.list.tasks.title'),
         description: t('projects.list.tasks.description'),
         linkGithub: 'https://github.com/zmngabriela/tasks',
@@ -44,7 +53,7 @@ const ProjectsList = () => {
           'https://i.postimg.cc/L8vxRc9f/Screenshot-2025-02-12-at-17-28-53.png'
       },
       {
-        id: 3,
+        id: 5,
         title: t('projects.list.portfolio.title'),
         description: t('projects.list.portfolio.description'),
         linkGithub: 'https://github.com/zmngabriela/portfolio',
