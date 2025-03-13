@@ -53,7 +53,7 @@ export const Container = styled.div`
 `;
 
 export const Images = styled.div`
-  width: 70%;
+  width: 50%;
   margin-top: 40px;
   display: grid;
   grid-template-column: 1fr 1fr 1fr;
@@ -61,12 +61,5 @@ export const Images = styled.div`
 
   img {
     width: 100%;
-    transform: translateX(-42px);
-  }
-
-  @media (max-width: ${breakpoints.tablet}) {
-    img {
-      transform: translateX(-24px);
-    }
   }
 `;
