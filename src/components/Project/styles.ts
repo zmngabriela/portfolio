@@ -10,28 +10,14 @@ export const Card = styled.div`
   transition: width 0.5s ease-in-out;
 
   &:hover {
-    width: calc(${breakpoints.tablet} + 24px);
-
-    img.arrow {
-      opacity: 0.7;
-    }
-
-    p.description {
-      opacity: 0.7;
-    }
-  }
-
-  &.display {
-    p.description {
-      opacity: 0.7;
-    }
+    width: calc(${breakpoints.tablet} + 12px);
   }
 
   @media (max-width: ${breakpoints.tablet}) {
     width: calc(${breakpoints.mobile});
 
     &:hover {
-      width: calc(${breakpoints.mobile});
+      width: calc(${breakpoints.mobile} + 12px);
     }
   }
 
@@ -54,6 +40,9 @@ export const Container = styled.div`
 `;
 
 export const Info = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   padding: 8px 0 8px 16px;
 
   h2 {
@@ -83,13 +72,12 @@ export const Image = styled.div`
 
 export const LinkVercel = styled.a`
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
 
   img.arrow {
     width: 18px;
     height: 18px;
-    opacity: 0;
     transition: opacity ease 1s;
   }
 `;
@@ -98,6 +86,6 @@ export const Description = styled.p`
   width: 100%;
   font-family: 'costaline';
   white-space: wrap;
-  opacity: 0;
+  opacity: 1;
   transition: opacity ease 1.5s;
 `;
