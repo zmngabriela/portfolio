@@ -12,7 +12,7 @@
   "projects": {
     "title": "Projetos",
     "github": "Ver código no Github",
-    "subtitle": "Projetos pessoais e de estudos",
+    "description": "Descrição",
     "list": {
       "e-commerce": {
         "title": "E-commerce",

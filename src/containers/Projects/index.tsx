@@ -16,7 +16,6 @@ const Projects = () => {
         <h3>
           <span>(</span> {t('projects.title')} <span>)</span>
         </h3>
-        <TextComponent count="01." content={<p>{t('projects.subtitle')}</p>} />
       </S.Container>
       <ProjectsList />
       <S.Skills>
