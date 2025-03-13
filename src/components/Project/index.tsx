@@ -1,7 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-
-import arrow from '../../assets/icons/arrow.png';
 
 import * as S from './styles';
 
@@ -26,40 +24,26 @@ const Project = ({
   const projectRef = useRef<HTMLDivElement>(null);
 
   const [isVisible, setIsVisible] = useState(false);
+  const [isClosing, setIsClosing] = useState(false);
 
-  useEffect(() => {
-    if (window.innerWidth <= 456) {
-      const project = projectRef.current;
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              setIsVisible(true);
-            } else {
-              setIsVisible(false);
-            }
-          });
-        },
-        { threshold: 0.6 }
-      );
-
-      if (project) {
-        observer.observe(project);
-      }
-
-      console.log('teste', isVisible);
-
-      return () => {
-        if (project) {
-          observer.unobserve(project);
-        }
-      };
+  const handleToggleDescription = () => {
+    if (isVisible) {
+      setIsClosing(true);
+      setTimeout(() => {
+        setIsVisible(false);
+        setIsClosing(false);
+      }, 500);
+    } else {
+      setIsVisible(true);
     }
-  }, []);
+  };
 
   return (
-    <S.Card ref={projectRef} className={isVisible ? 'display' : ''}>
-      <S.Container>
+    <S.Card ref={projectRef}>
+      <S.Container
+        style={{ position: 'relative' }}
+        onMouseLeave={() => setIsVisible(false)}
+      >
         <S.Info>
           <h2>{title}</h2>
           <S.LinkGithub href={linkGithub} target="_blank" rel="noreferrer">
@@ -68,13 +52,20 @@ const Project = ({
         </S.Info>
         <S.Image>
           <img src={image} alt="Preview" className="preview" />
-          <S.LinkVercel href={linkVercel} target="_blank" rel="noreferrer">
-            <img src={arrow} alt="" className="arrow" />
-          </S.LinkVercel>
+          <S.Links className="links">
+            <a href={linkVercel} target="_blank" rel="noreferrer">
+              Preview
+            </a>
+            <button type="button" onClick={handleToggleDescription}>
+              {isVisible ? 'X' : `${t('projects.description')}`}
+            </button>
+          </S.Links>
+          {isVisible && (
+            <S.Description isClosing={isClosing}>
+              <p>{description}</p>
+            </S.Description>
+          )}
         </S.Image>
-      </S.Container>
-      <S.Container className="center">
-        <S.Description className="description">{description}</S.Description>
       </S.Container>
     </S.Card>
   );

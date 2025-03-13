@@ -1,5 +1,23 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { breakpoints } from '../../styles/styles';
+
+const slideUp = keyframes`
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+`;
+
+const slideDown = keyframes`
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+`;
 
 export const Card = styled.div`
   width: ${breakpoints.tablet};
@@ -12,7 +30,7 @@ export const Card = styled.div`
   &:hover {
     width: calc(${breakpoints.tablet} + 12px);
 
-    img.arrow {
+    .links {
       opacity: 1;
     }
   }
@@ -74,23 +92,51 @@ export const Image = styled.div`
   }
 `;
 
-export const LinkVercel = styled.a`
+export const Links = styled.div`
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
 
-  img.arrow {
-    width: 18px;
-    height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 40px;
+
+  a,
+  button {
+    background-color: transparent;
+    border: none;
+    color: ${(props) => props.theme.colors.btn};
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  &.links {
+    flex-direction: column;
     opacity: 0;
     transition: opacity ease-in-out 1s;
+    mix-blend-mode: difference;
+    z-index: 2;
+
+    p,
+    button {
+      font-family: 'brosta';
+    }
   }
 `;
+export const Description = styled(Links)<{ isClosing?: boolean }>`
+  background-color: ${(props) => props.theme.colors.background};
+  text-wrap: wrap;
+  z-index: 1;
 
-export const Description = styled.p`
-  width: 100%;
-  font-family: 'costaline';
-  white-space: wrap;
-  opacity: 1;
-  transition: opacity ease 1.5s;
+  animation: ${({ isClosing }) => (isClosing ? slideDown : slideUp)} 500ms
+    ease-in-out;
+
+  p {
+    font-family: 'costaline';
+    max-width: 50%;
+  }
 `;
