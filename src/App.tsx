@@ -12,14 +12,14 @@ import darkTheme from './themes/darkTheme';
 import { EstiloGlobal, Container } from './styles/styles';
 
 function App() {
-  const [activeDark, setActiveDark] = useState(false);
+  const [activeLight, setActiveLight] = useState(false);
 
   function toggleTheme() {
-    setActiveDark(!activeDark);
+    setActiveLight(!activeLight);
   }
 
   return (
-    <ThemeProvider theme={activeDark ? darkTheme : lightTheme}>
+    <ThemeProvider theme={activeLight ? lightTheme : darkTheme}>
       <EstiloGlobal />
       <Header toggleTheme={toggleTheme} />
       <Container>
