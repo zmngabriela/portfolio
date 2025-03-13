@@ -11,6 +11,10 @@ export const Card = styled.div`
 
   &:hover {
     width: calc(${breakpoints.tablet} + 12px);
+
+    img.arrow {
+      opacity: 1;
+    }
   }
 
   @media (max-width: ${breakpoints.tablet}) {
@@ -78,7 +82,8 @@ export const LinkVercel = styled.a`
   img.arrow {
     width: 18px;
     height: 18px;
-    transition: opacity ease 1s;
+    opacity: 0;
+    transition: opacity ease-in-out 1s;
   }
 `;
 
