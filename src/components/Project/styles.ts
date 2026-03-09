@@ -125,6 +125,12 @@ export const Links = styled.div`
     button {
       font-family: 'brosta';
     }
+
+    @media (max-width: ${breakpoints.mobile}) {
+      button {
+        display: none;
+      }
+    }
   }
 `;
 export const Description = styled(Links)<{ isClosing?: boolean }>`
