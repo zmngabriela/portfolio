@@ -18,7 +18,7 @@ export const Text = styled.div`
   }
 
   @media (max-width: ${breakpoints.tablet}) {
-    width: 100%;
+    width: 70%;
     justify-content: auto;
   }
 `;

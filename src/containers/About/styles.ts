@@ -17,8 +17,11 @@ export const Main = styled.section`
 
 export const Container = styled.div`
   align-items: center;
-  gap: 40px;
   margin: 40px 0;
+
+  h3 {
+    margin-bottom: 30px;
+  }
 
   p {
     max-width: 30vw;
@@ -35,17 +38,11 @@ export const Container = styled.div`
     flex-direction: column;
 
     p {
-      max-width: 80%;
+      max-width: 100%;
     }
 
     ${Text} {
-      justify-content: center;
-    }
-
-    > div {
-      ${Text}:nth-of-type(1) {
-        margin-bottom: 40px;
-      }
+      justify-content: start;
     }
   }
 `;
