@@ -16,8 +16,6 @@ export const Main = styled.section`
 `;
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 40px;
   margin: 40px 0;
