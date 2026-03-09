@@ -7,7 +7,6 @@ export const Text = styled.div`
 
   p {
     font-family: 'costaline';
-    font-style: italic;
 
     span {
       font-family: 'brosta';
