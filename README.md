@@ -19,6 +19,7 @@ This is a personal portfolio built with **React**, **Styled Components**, and **
 It showcases several personal projects I've worked on, such as an **E-commerce** platform, a **Task Tracker** application, and a **Landing Page** for a business, all of which demonstrate my skills in **React**, **Redux**, **Vue.js**, and other modern tools.
 
 ### Main Features:
+
 - **Dark/Light Theme Toggle**: The website allows users to toggle between light and dark modes.
 - **Multi-Language Support**: Available in English, Spanish, and Portuguese.
 - **Interactive Project Showcase**: Users can view project details with live demos and links to GitHub repositories.
@@ -48,4 +49,4 @@ It showcases several personal projects I've worked on, such as an **E-commerce**
 ## Installation
 
 To run this project locally, clone the repository:
-   git clone https://github.com/zmngabriela/portfolio.git
+git clone https://github.com/zmngabriela/portfolio.git
