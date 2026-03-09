@@ -23,16 +23,7 @@ const ProjectsList = () => {
         linkGithub: 'https://github.com/zmngabriela/e-commerce',
         linkVercel: 'https://e-commerce-opal-seven-34.vercel.app/',
         image:
-          'https://i.postimg.cc/6pBMkWXt/Screenshot-2025-02-12-at-13-58-22.png'
-      },
-      {
-        id: 2,
-        title: t('projects.list.leonardo.title'),
-        description: t('projects.list.leonardo.description'),
-        linkGithub: 'https://github.com/zmngabriela/leonardo',
-        linkVercel: 'https://leonardo-seven-beta.vercel.app/',
-        image:
-          'https://i.postimg.cc/Xqh06Bw8/Screenshot-2025-03-12-at-18-49-41.png'
+          'https://i.postimg.cc/htf2BXdP/Screenshot-2026-03-08-at-23-20-01.png'
       },
       {
         id: 3,
@@ -41,25 +32,25 @@ const ProjectsList = () => {
         linkGithub: 'https://github.com/zmngabriela/calhas-gaspar',
         linkVercel: 'https://calhas-gaspar.vercel.app/',
         image:
-          'https://i.postimg.cc/L5V250J7/Screenshot-2025-03-10-at-11-47-03.png'
+          'https://i.postimg.cc/CKbHhkL0/Screenshot-2026-03-09-at-00-45-20.png'
       },
       {
-        id: 4,
-        title: t('projects.list.tasks.title'),
-        description: t('projects.list.tasks.description'),
-        linkGithub: 'https://github.com/zmngabriela/tasks',
-        linkVercel: 'https://tasks-lyart.vercel.app/',
+        id: 2,
+        title: t('projects.list.leonardo.title'),
+        description: t('projects.list.leonardo.description'),
+        linkGithub: 'https://github.com/zmngabriela/leonardo',
+        linkVercel: 'https://leonardo-seven-beta.vercel.app/',
         image:
-          'https://i.postimg.cc/L8vxRc9f/Screenshot-2025-02-12-at-17-28-53.png'
+          'https://i.postimg.cc/MZ39nZD4/Screenshot-2026-03-08-at-23-04-06.png'
       },
       {
         id: 5,
-        title: t('projects.list.portfolio.title'),
-        description: t('projects.list.portfolio.description'),
-        linkGithub: 'https://github.com/zmngabriela/portfolio',
-        linkVercel: 'https://zmngabriela.vercel.app/',
+        title: t('projects.list.konnin.title'),
+        description: t('projects.list.konnin.description'),
+        linkGithub: 'https://github.com/zmngabriela/Konnin',
+        linkVercel: 'https://konnin.vercel.app/',
         image:
-          'https://i.postimg.cc/tCTGvfxr/Screenshot-2025-03-09-at-22-04-38.png'
+          'https://i.postimg.cc/8cY49wcm/Screenshot-2026-03-08-at-23-06-08.png'
       }
     ]);
   }, [i18n.language, t]);
