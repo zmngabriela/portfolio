@@ -65,7 +65,7 @@ export const Info = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 8px 0 8px 16px;
+  padding: 8px 16px 8px 0;
 
   h2 {
     font-family: 'costaline';
