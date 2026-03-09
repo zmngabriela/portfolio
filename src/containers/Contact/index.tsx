@@ -36,16 +36,9 @@ const Contact = () => {
                 </a>
               </p>
             </li>
-            <li>
-              <p>
-                <a href="https://www.linkedin.com/in/zmngabriela/">
-                  <span>Linkedin</span>
-                </a>
-              </p>
-            </li>
           </ul>
         </div>
-        <div>
+        {/* <div>
           <p>{t('contact.subtitle')}</p>
           <ul>
             <li>
@@ -71,7 +64,7 @@ const Contact = () => {
               </p>
             </li>
           </ul>
-        </div>
+        </div> */}
         <p>
           <span>&copy; {year}</span>
         </p>
