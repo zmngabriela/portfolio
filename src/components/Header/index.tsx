@@ -49,16 +49,7 @@ const Header = ({ toggleTheme }: Props) => {
     <S.Header>
       <S.Container className="left">
         <h1>Gabriela Zimmermann</h1>
-        <h2>
-          {t('navbar.role')
-            .split(' ')
-            .map((word, index) => (
-              <>
-                <span key={index}>{word[0]}</span>
-                {word.slice(1)}
-              </>
-            ))}
-        </h2>
+        <h2>{t('navbar.role')}</h2>
       </S.Container>
       <S.Links className={menuOpen ? 'open' : ''} ref={openNavRef}>
         <li>
