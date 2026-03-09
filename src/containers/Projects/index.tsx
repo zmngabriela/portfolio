@@ -13,9 +13,7 @@ const Projects = () => {
   return (
     <S.Section id="projects">
       <S.Container>
-        <h3>
-          <span>(</span> {t('projects.title')} <span>)</span>
-        </h3>
+        <h3>{t('projects.title')}</h3>
       </S.Container>
       <ProjectsList />
       <S.Skills>
