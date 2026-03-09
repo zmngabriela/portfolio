@@ -15,11 +15,11 @@
     "description": "Description",
     "list": {
       "e-commerce": {
-        "title": "E-commerce platform",
+        "title": "E-commerce",
         "description": "A e-commerce platform built with React, Redux, and Styled Components. Powered by a fake REST API, this project features JWS authentication for login, pagination. As well filtering based on categories, price, and search term, mocked wishlist and newsletter, and a dynamic carousel."
       },
       "leonardo": {
-        "title": "Leonardo Cadore – Content producer",
+        "title": "Leonardo Cadore",
         "description": "A photography and videography showcase developed with React and Bootstrap, featuring custom cursor and Cloudinary-hosted videos for a seamless viewing experience. The design delivers a modern and cinematic web presence."
       },
       "konnin": {
@@ -27,7 +27,7 @@
         "description": "An artist website built with React and Vite for a DJ brand. It features a minimalist visual direction, custom CSS animations, YouTube and SoundCloud integration, and responsive layouts for desktop and mobile. The project also includes SEO optimization (meta tags, Open Graph, Twitter Card, and JSON-LD), with deployment on Vercel and version control via Git/GitHub."
       },
       "calhasGaspar": {
-        "title": "Landing Page",
+        "title": "Calhas Gaspar",
         "description": "A business landing page, developed using VueJS framework and Tailwind for dynamic styling. Includes a interative animated form, for better user experience. The project emphasizes clean, modern design and mobile responsiveness."
       }
     },

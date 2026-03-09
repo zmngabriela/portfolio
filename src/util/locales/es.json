@@ -15,11 +15,11 @@
     "description": "Descripción",
     "list": {
       "e-commerce": {
-        "title": "Plataforma E-commerce",
+        "title": "E-commerce",
         "description": "Un e-commerce construido con React, Redux y Styled Components. Impulsado por una API REST falsa, este proyecto cuenta con autenticación JWS para el inicio de sesión, paginación, además de filtrado basado en categorías, precio y términos de búsqueda, lista de deseos simulada y newsletter, además de un carrusel dinámico."
       },
       "leonardo": {
-        "title": "Leonardo Cadore - Creador de contenido",
+        "title": "Leonardo Cadore",
         "description": "Una exhibición de fotografía y videografía desarrollada con React y Bootstrap, con un cursor personalizado y videos alojados en Cloudinary para una experiencia de visualización fluida. El diseño ofrece una presencia web moderna y cinematográfica."
       },
       "konnin": {
