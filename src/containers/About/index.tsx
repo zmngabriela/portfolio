@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next';
 
 import TextComponent from '../../components/TextComponent';
 
-import gabi from '../../assets/images/gabi.jpg';
 import hobbies from '../../assets/images/hobbies.jpg';
 
 import * as S from './styles';
