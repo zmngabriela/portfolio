@@ -15,24 +15,20 @@
     "description": "Descrição",
     "list": {
       "e-commerce": {
-        "title": "E-commerce",
+        "title": "Plataforma E-commerce",
         "description": "Um e-commerce desenvolvido com React, Redux e Styled Components. Utilizando uma API REST falsa, este projeto conta com autenticação JWS para login, paginação, além de filtros por categorias, preço e termo de busca, lista de desejos simulada e newsletter, além de um carrossel dinâmico."
       },
       "leonardo": {
-        "title": "Portfólio de Leonardo Cadore",
-        "description": "Em Construção; Um portfólio de fotografia e videografia desenvolvido com React e Bootstrap, com um cursor personalizado e vídeos hospedados no Cloudinary para uma experiência de visualização perfeita. O design proporciona uma presença web moderna e cinematográfica."
+        "title": "Leonardo Cadore - Criador de conteúdo",
+        "description": "Um portfólio de fotografia e videografia desenvolvido com React e Bootstrap, com um cursor personalizado e vídeos hospedados no Cloudinary para uma experiência de visualização perfeita. O design proporciona uma presença web moderna e cinematográfica."
       },
-      "portfolio": {
-        "title": "Portfólio",
-        "description": "Um portfólio pessoal criado com React e Styled Components, com tema dinâmico e internacionalização (i18n). Este projeto demonstra a habilidade de construir aplicações responsivas e multilíngues com foco em UI/UX."
+      "konnin": {
+        "title": "Artista Konnin",
+        "description": "Site desenvolvido com React e Vite para artista. O projeto traz direção visual minimalista, animações personalizadas em CSS, integração com YouTube e SoundCloud e layout responsivo para desktop e mobile. Também inclui otimização de SEO (meta tags, Open Graph, Twitter Card e JSON-LD), com deploy na Vercel e versionamento com Git/GitHub."
       },
       "calhasGaspar": {
-        "title": "Landing Page",
+        "title": "Calhas Gaspar",
         "description": "Uma landing page empresarial, desenvolvida usando o framework VueJS e Tailwind para estilização dinâmica. Inclui um formulário animado interativo para melhor experiência do usuário. O projeto enfatiza um design limpo, moderno e responsivo para dispositivos móveis."
-      },
-      "tasks": {
-        "title": "Tarefas",
-        "description": "Um aplicativo de gerenciamento de tarefas desenvolvido com React, Redux para gerenciamento eficiente de estado e Styled Components para uma interface personalizada. O app permite que os usuários adicionem, editem e excluam tarefas, contando com persistência no armazenamento local para maior comodidade."
       }
     },
     "skills": {
@@ -51,9 +47,8 @@
   },
   "about": {
     "title": "Quem é",
-    "description": "Sociável, curioso, proativo. Ama a natureza, música, fotografia e viajar. Cinéfilo, entusiasta de neurociência. Independente e forte.",
-    "more": "Estudante de desenvolvimento Java Full Stack. Experiência e estudos em Design Gráfico e de Moda, o que me permite criar interfaces mais intuitivas e atraentes. Mudei de carreira depois de encontrar propósito e valores. Gosto de trabalhar em ambientes dinâmicos. Moro em Barcelona, Espanha. Sou de Santa Catarina, sul do Brasil.",
-    "extra": "Sendo um aprendiz rápido e gostando de trabalhar em projetos de diferentes áreas, estou atualmente aberto a todo tipo de desafio."
+    "more": "Estudante de desenvolvimento Full Stack Java.",
+    "description": "Experiência em Design Gráfico e Design de Moda, o que me permite criar interfaces mais intuitivas e atraentes. Brasileira vivendo em Barcelona, Espanha."
   },
   "contact": {
     "title": "Vamos conectar",

@@ -15,24 +15,20 @@
     "description": "Description",
     "list": {
       "e-commerce": {
-        "title": "E-commerce",
-        "description": "A e-commerce built with React, Redux, and Styled Components. Powered by a fake REST API, this project features JWS authentication for login, pagination. As well filtering based on categories, price, and search term, mocked wishlist and newsletter, and a dynamic carousel."
+        "title": "E-commerce platform",
+        "description": "A e-commerce platform built with React, Redux, and Styled Components. Powered by a fake REST API, this project features JWS authentication for login, pagination. As well filtering based on categories, price, and search term, mocked wishlist and newsletter, and a dynamic carousel."
       },
       "leonardo": {
-        "title": "Leonardo Cadore's Portfolio",
-        "description": "Under Construction; A photography and videography showcase developed with React and Bootstrap, featuring custom cursor and Cloudinary-hosted videos for a seamless viewing experience. The design delivers a modern and cinematic web presence."
+        "title": "Leonardo Cadore – Content producer",
+        "description": "A photography and videography showcase developed with React and Bootstrap, featuring custom cursor and Cloudinary-hosted videos for a seamless viewing experience. The design delivers a modern and cinematic web presence."
       },
-      "portfolio": {
-        "title": "Portfolio",
-        "description": "A personal portfolio website created with React and Styled Components, featuring dynamic theming and internationalization (i18n). This project demonstrates ability to build responsive, multi-language applications with a focus on UI/UX design."
+      "konnin": {
+        "title": "Artist Konnin",
+        "description": "An artist website built with React and Vite for a DJ brand. It features a minimalist visual direction, custom CSS animations, YouTube and SoundCloud integration, and responsive layouts for desktop and mobile. The project also includes SEO optimization (meta tags, Open Graph, Twitter Card, and JSON-LD), with deployment on Vercel and version control via Git/GitHub."
       },
       "calhasGaspar": {
         "title": "Landing Page",
         "description": "A business landing page, developed using VueJS framework and Tailwind for dynamic styling. Includes a interative animated form, for better user experience. The project emphasizes clean, modern design and mobile responsiveness."
-      },
-      "tasks": {
-        "title": "Tasks",
-        "description": "A task tracking application developed with React, Redux for efficient state management, and Styled Components for a custom UI. The app allows users to add, edit, and delete tasks, featuring local storage persistence for user convenience."
       }
     },
     "skills": {
@@ -51,9 +47,8 @@
   },
   "about": {
     "title": "Who is",
-    "description": "Social, curious, proactive. Loves nature, music, photography, traveling. Cinephile, neuroscience enthusiast. Independent and strong.",
-    "more": "Java Full Stack development student. Experience/studies in Graphic and Fashion Design, allows me to create more intuitive and attractive interfaces. Changed carreer after finding purpose and values. Estimulated by fast paced environments. Living in Barcelona, Spain. From Santa Catarina, south Brazil",
-    "extra": "Being a fast learner and enjoying working in projects from different backgrounds, I am currently open to all kinds of different challenges."
+    "more": "Java Full Stack development student.",
+    "description": "Experience in Graphic and Fashion Design, allows me to create more intuitive and attractive interfaces. Brazilian living in Barcelona, Spain."
   },
   "contact": {
     "title": "Let's connect",

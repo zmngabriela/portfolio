@@ -15,24 +15,20 @@
     "description": "Descripción",
     "list": {
       "e-commerce": {
-        "title": "E-commerce",
+        "title": "Plataforma E-commerce",
         "description": "Un e-commerce construido con React, Redux y Styled Components. Impulsado por una API REST falsa, este proyecto cuenta con autenticación JWS para el inicio de sesión, paginación, además de filtrado basado en categorías, precio y términos de búsqueda, lista de deseos simulada y newsletter, además de un carrusel dinámico."
       },
       "leonardo": {
-        "title": "Portafolio de Leonardo Cadore",
-        "description": "En Construcción; Una exhibición de fotografía y videografía desarrollada con React y Bootstrap, con un cursor personalizado y videos alojados en Cloudinary para una experiencia de visualización fluida. El diseño ofrece una presencia web moderna y cinematográfica."
+        "title": "Leonardo Cadore - Creador de contenido",
+        "description": "Una exhibición de fotografía y videografía desarrollada con React y Bootstrap, con un cursor personalizado y videos alojados en Cloudinary para una experiencia de visualización fluida. El diseño ofrece una presencia web moderna y cinematográfica."
       },
-      "portfolio": {
-        "title": "Portafolio",
-        "description": "Un portafolio personal creado con React y Styled Components, con tematización dinámica e internacionalización (i18n). Este proyecto demuestra la capacidad de construir aplicaciones receptivas y multilingües con un enfoque en UI/UX."
+      "konnin": {
+        "title": "Artista Konnin",
+        "description": "Un sitio web desarrollado con React y Vite para artista. El proyecto incluye una dirección visual minimalista, animaciones personalizadas en CSS, integración con YouTube y SoundCloud, y diseño responsive para desktop y mobile. También cuenta con optimización SEO (meta tags, Open Graph, Twitter Card y JSON-LD), con despliegue en Vercel y control de versiones con Git/GitHub."
       },
       "calhasGaspar": {
-        "title": "Landing Page",
+        "title": "Calhas Gaspar",
         "description": "Una landing page empresarial, desarrollada con el framework VueJS y Tailwind para un estilo dinámico. Incluye un formulario animado interactivo para una mejor experiencia de usuario. El proyecto enfatiza un diseño limpio, moderno y responsivo para dispositivos móviles."
-      },
-      "tasks": {
-        "title": "Tareas",
-        "description": "Una aplicación de seguimiento de tareas desarrollada con React, Redux para la gestión eficiente del estado y Styled Components para una interfaz personalizada. La aplicación permite a los usuarios agregar, editar y eliminar tareas, con persistencia en el almacenamiento local para mayor comodidad."
       }
     },
     "skills": {
@@ -51,9 +47,8 @@
   },
   "about": {
     "title": "¿Quién es?",
-    "description": "Sociable, curioso, proactivo. Ama la naturaleza, la música, la fotografía y viajar. Cinéfilo, entusiasta de la neurociencia. Independiente y fuerte.",
-    "more": "Estudiante de desarrollo Java Full Stack. Experiencia y estudios en Diseño Gráfico y de Moda, lo que me permite crear interfaces más intuitivas y atractivas. Cambié de carrera después de encontrar propósito y valores. Me motiva trabajar en entornos dinámicos. Vivo en Barcelona, España. De Santa Catarina, sur de Brasil.",
-    "extra": "Siendo un aprendiz rápido y disfrutando trabajar en proyectos de diferentes ámbitos, actualmente estoy abierto a todo tipo de desafíos."
+    "more": "Estudiante de desarrollo Full Stack Java.",
+    "description": "Experiencia en Diseño Gráfico y Diseño de Moda, lo que me permite crear interfaces más intuitivas y atractivas. Brasileña viviendo en Barcelona, España."
   },
   "contact": {
     "title": "Conectemos",
